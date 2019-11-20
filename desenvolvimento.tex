@@ -1,4 +1,3 @@
-\usepackage{float}
 \chapter{DESENVOLVIMENTO}
 \label{cap:desenvolvimento}
 
@@ -12,9 +11,12 @@ A infraestrutura de servidores do lemaf muitas vezes são servidores com diversa
 
 O frontend geralmente seguia o mesmo processo do backend, porem quando ia para alguma maquina externa, era criado alguma configuração para que o backend servisse o frontend, evitando assim problemas de CORS.
 
-Durante minha experiencia como estagiario, participei de todos squads, trabalhando com diversos times, projetos e tecnologias.
+Já o banco de dados era controlado por um DBA(Database Administrator), que criava e gerenciava toda a estrutura de banco, sendo somente nescessario aos devs, discutir melhores soluções e criar tarefas para os mesmos.
+
+Durante meu 1 ano como estagiario, participei de todos squads, trabalhando com diversos times, projetos e tecnologias.
 
 Em minha primeira equipe(Squad 1 - Carreta Furacão), tive como tecnologias nescessarias JAVA(backend) e Angular(Frontend), para que fosse possivel evoluir os projetos do Cadastro Ambiental Rural, incluindo os projetos SICAR, Central do Responsavel Tecnico, Central do Proprietario, PRA-OFF.
+
 \begin{figure}[H]
 \centering
 \caption{SICAR-PA} %legenda
@@ -116,7 +118,25 @@ Foi minha primeira experiencia tomando liderança em prioridades das atividades,
 
 O projeto foi finalizado com exelencia no prazo estipulado e graças a isso, fui realocado em um time que já trabalhava com DotNet e precisava de mais um desenvolvedor.
 
-A equipe era na mesma tribo e cuidava de alguns projetos com SIOUT e Siger-pa.
+O projeto desta vez fazia parte de um grande complexo de plataformas que havia sido encomendado por uma empresa de agronomia e tinha muitos componentes de frontend parecidos.
+
+Dai surgiu a iniciativa por parte minha e de outro desenvolvedor, de iniciar a construção do Design System da empresa.
+Dai surgiu o Cria Design System, que é uma biblioteca de componentes UI para ReactJs.
+
+Todos componentes eram criados pelo design do projeto, definido comportamentos e animações e depois desenvolvido. Para a visualização dos componentes separadamente, utilizamos o StoryBook,
+que cria e organiza o catalogo de componentes e então para que essa biblioteca fosse compartilhada por toda empresa e não surgissem varios bugs, foram implementados testes automatizados para todos componentes e com uma nessesidade de cobertura de no minimo 80\%.
+
+\begin{figure}[H]
+\centering
+\caption{Cria Design System} %legenda
+\includegraphics[scale=0.3]{cria-design}\\  % o 0.9 indica 90% do tamanho original
+% pdfLaTeX aceita figuras no formato PNG, JPG ou PDF
+% figuras vetoriais podem ser exportadas para eps e depois convertidas para pdf usando epstopdf
+{\small Fonte: https://criatecnologiainovacao.github.io/cria-design-react/#/pt-BR/button} %Fonte da imagem
+\label{fig:exemplo} %rotulo para refencia
+\end{figure}
+
+Apos ajudar com o começo do projeto e facilitar o desenvolvimento do mesmo, fui incorporado a uma equipe na mesma tribo e cuidava de alguns projetos como o SIOUT e Siger-pa.
 
 \begin{figure}[H]
 \centering

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.19)  20 NOV 2019 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.19)  20 NOV 2019 15:36
 entering extended mode
 **c:/Users/mon_g/Desktop/Tcc/exemplo_monografia_UFLA.tex
 (c:/Users/mon_g/Desktop/Tcc/exemplo_monografia_UFLA.tex
@@ -887,31 +887,14 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 \openout2 = `desenvolvimento.aux'.
 
  (c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex
-
-c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:1: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \usepackage
-               {float}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[16
-
-
-]
 Cap\'{\i }tulo 3.
-<SICAR.png, id=106, 1445.4pt x 813.0375pt>
+<SICAR.png, id=101, 1445.4pt x 813.0375pt>
 File: SICAR.png Graphic file (type png)
 <use SICAR.png>
-Package pdftex.def Info: SICAR.png  used on input line 21.
+Package pdftex.def Info: SICAR.png  used on input line 23.
 (pdftex.def)             Requested size: 433.62335pt x 243.91313pt.
-c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:24: You can't use `macro parameter character #' in horizontal mode.
-l.24 {\small Fonte: http://car.semas.pa.gov.br/#
+c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:26: You can't use `macro parameter character #' in horizontal mode.
+l.26 {\small Fonte: http://car.semas.pa.gov.br/#
                                                 /} %Fonte da imagem
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -919,43 +902,45 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 27.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 29.
 
-[17
+[16
+
+
 
 ]
-<pra-off.png, id=112, 903.375pt x 507.8975pt>
+<pra-off.png, id=108, 903.375pt x 507.8975pt>
 File: pra-off.png Graphic file (type png)
 <use pra-off.png>
-Package pdftex.def Info: pra-off.png  used on input line 33.
+Package pdftex.def Info: pra-off.png  used on input line 35.
 (pdftex.def)             Requested size: 451.6864pt x 253.94814pt.
 
-c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:36: Missing $ inserted.
+c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:38: Missing $ inserted.
 <inserted text> 
                 $
-l.36 ...Fonte: http://www.cprh.pe.gov.br/Controle_
+l.38 ...Fonte: http://www.cprh.pe.gov.br/Controle_
                                                   Ambiental/Sistema%20Nacion...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
-c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:38: Missing $ inserted.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
+c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:40: Missing $ inserted.
 <inserted text> 
                 $
-l.38 \end{figure}
+l.40 \end{figure}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:38: Missing } inserted.
+c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:40: Missing } inserted.
 <inserted text> 
                 }
-l.38 \end{figure}
+l.40 \end{figure}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -963,68 +948,77 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[18 <c:/Users/mon_g/Desktop/Tcc/SICAR.png> <c:/Users/mon_g/Desktop/Tcc/pra-off.png>]
-<consulta-publica.png, id=121, 1927.2pt x 1084.05pt>
+[17 <c:/Users/mon_g/Desktop/Tcc/SICAR.png> <c:/Users/mon_g/Desktop/Tcc/pra-off.png>]
+<consulta-publica.png, id=117, 1927.2pt x 1084.05pt>
 File: consulta-publica.png Graphic file (type png)
 <use consulta-publica.png>
-Package pdftex.def Info: consulta-publica.png  used on input line 47.
+Package pdftex.def Info: consulta-publica.png  used on input line 49.
 (pdftex.def)             Requested size: 423.98532pt x 238.49173pt.
 
-c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:50: You can't use `macro parameter character #' in horizontal mode.
-l.50 ...emas.semas.pa.gov.br/pra/consultaPublica/#
+c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:52: You can't use `macro parameter character #' in horizontal mode.
+l.52 ...emas.semas.pa.gov.br/pra/consultaPublica/#
                                                   /} %Fonte da imagem
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-<relatorios-pra.png, id=122, 1927.2pt x 1084.05pt>
+<relatorios-pra.png, id=118, 1927.2pt x 1084.05pt>
 File: relatorios-pra.png Graphic file (type png)
 <use relatorios-pra.png>
-Package pdftex.def Info: relatorios-pra.png  used on input line 66.
+Package pdftex.def Info: relatorios-pra.png  used on input line 68.
 (pdftex.def)             Requested size: 423.98532pt x 238.49173pt.
-c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:69: You can't use `macro parameter character #' in horizontal mode.
-l.69 .../sistemas.semas.pa.gov.br/pra/relatorios/#
+c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:71: You can't use `macro parameter character #' in horizontal mode.
+l.71 .../sistemas.semas.pa.gov.br/pra/relatorios/#
                                                   /dados-gerais-adequacao-am...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-[19 <c:/Users/mon_g/Desktop/Tcc/consulta-publica.png>]
-<seirh-cms.png, id=129, 1927.2pt x 1084.05pt>
+[18 <c:/Users/mon_g/Desktop/Tcc/consulta-publica.png>]
+<seirh-cms.png, id=125, 1927.2pt x 1084.05pt>
 File: seirh-cms.png Graphic file (type png)
 <use seirh-cms.png>
-Package pdftex.def Info: seirh-cms.png  used on input line 89.
+Package pdftex.def Info: seirh-cms.png  used on input line 91.
 (pdftex.def)             Requested size: 423.98532pt x 238.49173pt.
- [20 <c:/Users/mon_g/Desktop/Tcc/relatorios-pra.png>]
-<seirh.png, id=136, 1927.2pt x 1084.05pt>
+ [19 <c:/Users/mon_g/Desktop/Tcc/relatorios-pra.png>]
+<seirh.png, id=132, 1927.2pt x 1084.05pt>
 File: seirh.png Graphic file (type png)
 <use seirh.png>
-Package pdftex.def Info: seirh.png  used on input line 102.
+Package pdftex.def Info: seirh.png  used on input line 104.
 (pdftex.def)             Requested size: 423.98532pt x 238.49173pt.
- [21 <c:/Users/mon_g/Desktop/Tcc/seirh-cms.png> <c:/Users/mon_g/Desktop/Tcc/seirh.png>]
-<sigerpa.png, id=145, 1927.2pt x 1084.05pt>
+ [20 <c:/Users/mon_g/Desktop/Tcc/seirh-cms.png> <c:/Users/mon_g/Desktop/Tcc/seirh.png>]
+<cria-design.png, id=141, 1445.4pt x 813.0375pt>
+File: cria-design.png Graphic file (type png)
+<use cria-design.png>
+Package pdftex.def Info: cria-design.png  used on input line 132.
+(pdftex.def)             Requested size: 433.62335pt x 243.91313pt.
+
+c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:135: You can't use `macro parameter character #' in horizontal mode.
+l.135 ...giainovacao.github.io/cria-design-react/#
+                                                  /pt-BR/button} %Fonte da i...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+[21]
+<sigerpa.png, id=146, 1927.2pt x 1084.05pt>
 File: sigerpa.png Graphic file (type png)
 <use sigerpa.png>
-Package pdftex.def Info: sigerpa.png  used on input line 124.
+Package pdftex.def Info: sigerpa.png  used on input line 144.
 (pdftex.def)             Requested size: 427.83759pt x 240.65865pt.
-) [22 <c:/Users/mon_g/Desktop/Tcc/sigerpa.png>]
+ [22 <c:/Users/mon_g/Desktop/Tcc/cria-design.png> <c:/Users/mon_g/Desktop/Tcc/sigerpa.png>]) [23]
 \openout2 = `conclusao.aux'.
 
  (c:/Users\mon_g\Desktop\Tcc\conclusao.tex
 Cap\'{\i }tulo 4.
-
-LaTeX Warning: Citation `PDF2004' on page 23 undefined on input line 4.
-
-
-LaTeX Warning: Citation `PostScript1999' on page 23 undefined on input line 4.
-
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 256.
 
-[23
+[24
 
 
 
@@ -1032,7 +1026,7 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 No file exemplo_monografia_UFLA.bbl.
 \openout2 = `apendice1.aux'.
 
-(c:/Users\mon_g\Desktop\Tcc\apendice1.tex) [24
+(c:/Users\mon_g\Desktop\Tcc\apendice1.tex) [25
 
 
 
@@ -1066,17 +1060,17 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 277.
  ) 
 Here is how much of TeX's memory you used:
- 12570 strings out of 492450
- 187919 string characters out of 3120004
+ 12568 strings out of 492450
+ 187927 string characters out of 3120004
  477024 words of memory out of 3000000
- 16565 multiletter control sequences out of 15000+200000
- 59953 words of font info for 102 fonts, out of 3000000 for 9000
+ 16564 multiletter control sequences out of 15000+200000
+ 56620 words of font info for 98 fonts, out of 3000000 for 9000
  1150 hyphenation exceptions out of 8191
  46i,12n,52p,712b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.pdf (27 pages, 5738561 bytes).
+{C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.pdf (28 pages, 5854531 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 200 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
