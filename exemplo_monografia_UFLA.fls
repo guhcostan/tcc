@@ -175,6 +175,14 @@ INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\tex\latex\relsize\relsize
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\tex\latex\relsize\relsize.sty
 INPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.aux
 INPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.aux
+INPUT c:\Users\mon_g\Desktop\Tcc\introducao.aux
+INPUT c:\Users\mon_g\Desktop\Tcc\introducao.aux
+INPUT c:\Users\mon_g\Desktop\Tcc\elementos.aux
+INPUT c:\Users\mon_g\Desktop\Tcc\elementos.aux
+INPUT c:\Users\mon_g\Desktop\Tcc\desenvolvimento.aux
+INPUT c:\Users\mon_g\Desktop\Tcc\desenvolvimento.aux
+INPUT c:\Users\mon_g\Desktop\Tcc\conclusao.aux
+INPUT c:\Users\mon_g\Desktop\Tcc\conclusao.aux
 OUTPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.aux
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd
@@ -192,8 +200,14 @@ INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\refcou
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\refcount.sty
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
-OUTPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.out
+INPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.out
+INPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.out
+INPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.out
+INPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.out
 OUTPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.pdf
+INPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.out
+INPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.out
+OUTPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.out
 INPUT c:\Users\mon_g\Desktop\Tcc\logoufla.jpg
 INPUT c:\Users\mon_g\Desktop\Tcc\logoufla.jpg
 INPUT c:\Users\mon_g\Desktop\Tcc\logoufla.jpg
@@ -258,6 +272,7 @@ INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptm
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.lff
+INPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.lff
 OUTPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.lff
 OUTPUT c:\Users\mon_g\Desktop\Tcc\introducao.aux
 INPUT c:\Users\mon_g\Desktop\Tcc\introducao.tex
@@ -266,7 +281,6 @@ OUTPUT c:\Users\mon_g\Desktop\Tcc\elementos.aux
 INPUT c:\Users\mon_g\Desktop\Tcc\elementos.tex
 INPUT c:\Users\mon_g\Desktop\Tcc\elementos.tex
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT c:\Users\mon_g\Desktop\Tcc\quadroKanban.png
 INPUT c:\Users\mon_g\Desktop\Tcc\quadroKanban.png
 INPUT c:\Users\mon_g\Desktop\Tcc\quadroKanban.png
@@ -274,8 +288,6 @@ INPUT c:\Users\mon_g\Desktop\Tcc\quadroKanban.png
 INPUT c:\Users\mon_g\Desktop\Tcc\quadroKanban.png
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmb8t.vf
-INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8r.tfm
 OUTPUT c:\Users\mon_g\Desktop\Tcc\desenvolvimento.aux
 INPUT c:\Users\mon_g\Desktop\Tcc\desenvolvimento.tex
 INPUT c:\Users\mon_g\Desktop\Tcc\desenvolvimento.tex
@@ -284,11 +296,6 @@ INPUT c:\Users\mon_g\Desktop\Tcc\SICAR.png
 INPUT c:\Users\mon_g\Desktop\Tcc\SICAR.png
 INPUT c:\Users\mon_g\Desktop\Tcc\SICAR.png
 INPUT c:\Users\mon_g\Desktop\Tcc\SICAR.png
-INPUT c:\Users\mon_g\Desktop\Tcc\pra-off.png
-INPUT c:\Users\mon_g\Desktop\Tcc\pra-off.png
-INPUT c:\Users\mon_g\Desktop\Tcc\pra-off.png
-INPUT c:\Users\mon_g\Desktop\Tcc\pra-off.png
-INPUT c:\Users\mon_g\Desktop\Tcc\pra-off.png
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7t.tfm
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7t.tfm
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7t.tfm
@@ -316,14 +323,11 @@ INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\latex-fonts\lasy10.tfm
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\latex-fonts\lasy8.tfm
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\latex-fonts\lasy6.tfm
-INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\zptmcm7m.vf
-INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\psyro.tfm
-INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\zptmcm7m.vf
-INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\psyro.tfm
-INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT c:\Users\mon_g\Desktop\Tcc\pra-off.png
+INPUT c:\Users\mon_g\Desktop\Tcc\pra-off.png
+INPUT c:\Users\mon_g\Desktop\Tcc\pra-off.png
+INPUT c:\Users\mon_g\Desktop\Tcc\pra-off.png
+INPUT c:\Users\mon_g\Desktop\Tcc\pra-off.png
 INPUT c:\Users\mon_g\Desktop\Tcc\consulta-publica.png
 INPUT c:\Users\mon_g\Desktop\Tcc\consulta-publica.png
 INPUT c:\Users\mon_g\Desktop\Tcc\consulta-publica.png
@@ -346,15 +350,15 @@ INPUT c:\Users\mon_g\Desktop\Tcc\SEIRH.png
 INPUT c:\Users\mon_g\Desktop\Tcc\SEIRH.png
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT c:\Users\mon_g\Desktop\Tcc\cria-design.png
+INPUT c:\Users\mon_g\Desktop\Tcc\cria-design.png
+INPUT c:\Users\mon_g\Desktop\Tcc\cria-design.png
+INPUT c:\Users\mon_g\Desktop\Tcc\cria-design.png
+INPUT c:\Users\mon_g\Desktop\Tcc\cria-design.png
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT c:\Users\mon_g\Desktop\Tcc\cria-design.png
-INPUT c:\Users\mon_g\Desktop\Tcc\cria-design.png
-INPUT c:\Users\mon_g\Desktop\Tcc\cria-design.png
-INPUT c:\Users\mon_g\Desktop\Tcc\cria-design.png
-INPUT c:\Users\mon_g\Desktop\Tcc\cria-design.png
 INPUT c:\Users\mon_g\Desktop\Tcc\sigerpa.png
 INPUT c:\Users\mon_g\Desktop\Tcc\sigerpa.png
 INPUT c:\Users\mon_g\Desktop\Tcc\sigerpa.png
@@ -373,6 +377,8 @@ INPUT c:\Users\mon_g\Desktop\Tcc\convensao.png
 INPUT c:\Users\mon_g\Desktop\Tcc\convensao.png
 INPUT c:\Users\mon_g\Desktop\Tcc\convensao.png
 INPUT c:\Users\mon_g\Desktop\Tcc\convensao.png
+INPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.bbl
+INPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.bbl
 INPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.aux
 INPUT c:\Users\mon_g\Desktop\Tcc\introducao.aux
 INPUT c:\Users\mon_g\Desktop\Tcc\introducao.aux
@@ -385,8 +391,6 @@ INPUT c:\Users\mon_g\Desktop\Tcc\conclusao.aux
 INPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.out
 INPUT c:\Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.out
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\base\8r.enc
-INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\mon_g\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\times\utmr8a.pfb

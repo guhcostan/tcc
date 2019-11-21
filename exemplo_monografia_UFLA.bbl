@@ -1,0 +1,46 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Boeg 2010]{boeg2010kanban}
+\abntrefinfo{Boeg}{BOEG}{2010}
+{BOEG, J. Kanban em 10 passos.
+\textbf{Tradu{\c{c}}{\~a}o de Leonardo Campos, Marcelo Costa, L{\'u}cio Camilo,
+  Rafael Buzon, Paulo Rebelo, Eric Fer, Ivo La Puma, Leonardo Galv{\~a}o,
+  Thiago Vespa, Manoel Pimentel e Daniel Wildt. C4Media}, 2010.}
+
+\bibitem[Ferreira e Zuchi 2018]{ferreira2018analise}
+\abntrefinfo{Ferreira e Zuchi}{FERREIRA; ZUCHI}{2018}
+{FERREIRA, H.~K.; ZUCHI, J.~D. An{\'a}lise comparativa entre frameworks
+  frontend baseados em javascript para aplica{\c{c}}{\~o}es web.
+\textbf{Revista Interface Tecnol{\'o}gica}, v.~15, n.~2, p. 111--123, 2018.}
+
+\bibitem[Filho 2015]{de2015cadastro}
+\abntrefinfo{Filho}{FILHO}{2015}
+{FILHO, C. F.~M. de S. Cadastro ambiental rural (car) e povos tradicionais.
+\textbf{Revista da Faculdade de Direito da UFG}, v.~39, n.~1, p. 77--91, 2015.}
+
+\bibitem[Petrella 2013]{petrella2013learning}
+\abntrefinfo{Petrella}{PETRELLA}{2013}
+{PETRELLA, A. \textbf{Learning Play! Framework 2}. [S.l.]: Packt Publishing
+  Ltd, 2013.}
+
+\bibitem[Sabbagh 2014]{sabbagh2014scrum}
+\abntrefinfo{Sabbagh}{SABBAGH}{2014}
+{SABBAGH, R. \textbf{Scrum: Gest{\~a}o {\'a}gil para projetos de sucesso}.
+  [S.l.]: Editora Casa do C{\'o}digo, 2014.}
+
+\bibitem[Thai e Lam 2003]{thai2003net}
+\abntrefinfo{Thai e Lam}{THAI; LAM}{2003}
+{THAI, T.; LAM, H. \textbf{. NET framework essentials}. [S.l.]: " O'Reilly
+  Media, Inc.", 2003.}
+
+\bibitem[Weissmann 2014]{weissmann2014vire}
+\abntrefinfo{Weissmann}{WEISSMANN}{2014}
+{WEISSMANN, H.~L. \textbf{Vire o jogo com Spring Framework}. [S.l.]: Editora
+  Casa do C{\'o}digo, 2014.}
+
+\end{thebibliography}
