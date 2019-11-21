@@ -3,17 +3,17 @@
 
 Neste capítulo serão apresentados os projetos e tecnologias utilizadas durante o tempo de estágio experienciado.
 
-Na sua grande maioria, os projetos do LEMAF são sistemas web, constituídos de uma aplicação backend e uma frontend.
+Na sua grande maioria, os projetos do LEMAF são sistemas web\footnote{Sistema acessaveis pela internet}, constituídos de uma aplicação backend e uma frontend.
 
 Durante o desenvolvimento, o backend é, geralmente, compilado no computador do próprio desenvolvedor, porém quando há necessidade de serem feitos testes, é criado um servidor dentro da rede local para que possam ser efetuados os mesmos, sendo mais precisos por conta de estarem em um servidor.
 
-A infraestrutura de servidores do LEMAF são servidores com diversas máquinas, todas rodando NGNIX para prover as aplicações.
+A infraestrutura de servidores\footnote{Computadores físicos ou virtuais que rodam e servem a aplicação} do LEMAF são servidores com diversas máquinas, todas rodando NGNIX para prover as aplicações.
 
 O frontend seguia o mesmo processo do backend, porém quando ia para alguma máquina externa, era criado alguma configuração para que o backend servisse o frontend, evitando assim problemas de CORS.
 
-Já o banco de dados era controlado por um DBA (Database Administrator), que criava e gerenciava toda a estrutura de banco, sendo somente necessário aos desenvolvedores discutir melhores soluções e criar demandas para os mesmos realizarem e contemplarem suas necessidades.
+Já o banco de dados\footnote{Estrutura de armazenamento de dados} era controlado por um DBA\footnote{Database Administrator, gerencia a estrutura do banco de dados, desde a escolha do gerenciado de banco de dados a estrutura interna do mesmo.}, que criava e gerenciava toda a estrutura de banco, sendo somente necessário aos desenvolvedores discutir melhores soluções e criar demandas para os mesmos realizarem e contemplarem suas necessidades.
 
-Durante o período de estagiário participei de todos squads, trabalhando com diversos times, projetos e tecnologias.
+Durante o período de estagiário participei de todos squads, trabalhando com diversos times\footnote{Grupo de funcionários, geralmente formado por desenvolvedores, analistas de qualidade e Product Owners}, projetos e tecnologias.
 
 Em minha primeira equipe (Squad 1 - Carreta Furacão), tive como tecnologias necessárias JAVA (backend) e Angular (Frontend) para evoluir os projetos do Cadastro Ambiental Rural, incluindo os projetos SICAR, Central do Responsável Técnico, Central do Proprietário, PRA-OFF.
 
@@ -27,7 +27,7 @@ Em minha primeira equipe (Squad 1 - Carreta Furacão), tive como tecnologias nec
 \label{fig:exemplo} %rotulo para refencia
 \end{figure}
 
-O projeto do SICAR tinha como objetivo informar e controlar os cadastros ambientais rurais feitos no estado do Pará, sendo necessárias algumas integrações com os módulos do SICAR federal e as Centrais ligadas ao PRA.
+O projeto do SICAR\footnote{Sistema de Cadastro Ambiental Rural, uma plataforma relacionada ao governo e que gerenciava os cadastros.} tinha como objetivo informar e controlar os cadastros ambientais rurais feitos no estado do Pará, sendo necessárias algumas integrações com os módulos do SICAR federal e as Centrais ligadas ao PRA.
 
 \begin{quote}
     Para adequação dos imóveis rurais à nova legislação, foi criado o Cadastramento
@@ -46,9 +46,9 @@ ao desmatamento. - \cite{de2015cadastro}
 \label{fig:exemplo} %rotulo para refencia
 \end{figure}
 
-Já o projeto do PRA, não eram possíveis tais integrações, pois ele era um modulo offline, sendo possível a utilização sem internet. Para o desenvolvimento do mesmo, foi necessário estudar sobre electron, uma ferramenta que possibilita criar módulos web em aplicações offline.
+Já o projeto do PRA\footnote{Programa de regularização ambiental, responsável por regularizar situações de desmatamentos e outras inflações ambientais}, não eram possíveis tais integrações, pois ele era um modulo offline, sendo possível a utilização sem internet. Para o desenvolvimento do mesmo, foi necessário estudar sobre electron, uma ferramenta que possibilita criar módulos web em aplicações offline.
 
-Após 5 meses a equipe foi dividida em duas e então foi feita uma redistribuição de projetos, quando fui alocado a tribo Runners. Os projetos principais que contribui durante esse período foram o Consulta Publica - PARÁ e relatórios do PRA.
+Após 5 meses a equipe foi dividida em duas e então foi feita uma redistribuição de projetos, quando fui alocado a tribo\footnote{Grupo de funcionários divido por equipes, gerenciado por um GP} Runners. Os projetos principais que contribui durante esse período foram o Consulta Publica - PARÁ e relatórios do PRA.
 
 \begin{quote}
     O objetivo principal é promover as boas
@@ -107,7 +107,7 @@ Após esse projeto, fui alocado na tribo Atlântida, onde trabalhei juntamente c
 \label{fig:exemplo} %rotulo para refencia
 \end{figure}
 
-O projeto do SEIRH-CMS era um gerenciador de conteúdo da aplicação SEIRH (Sistema Estadual de Informações Sobre Recursos Hídricos do Pará).
+O projeto do SEIRH-CMS era um gerenciador de conteúdo da aplicação SEIRH\footnote{Sistema Estadual de Informações Sobre Recursos Hídricos do Pará, responsável sobre oferecer informações sobre os projetos e programas relacionados a recursos hídricos do pará}.
 A plataforma web do SEIRH já existia, porém não havia comunicação com um backend, então seu conteúdo não era gerenciável. Logo, havia a necessidade de refatoração total do sistema.
 
 \begin{figure}[H]
