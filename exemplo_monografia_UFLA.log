@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.19)  20 NOV 2019 23:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.19)  21 NOV 2019 12:33
 entering extended mode
 **c:/Users/mon_g/Desktop/Tcc/exemplo_monografia_UFLA.tex
 (c:/Users/mon_g/Desktop/Tcc/exemplo_monografia_UFLA.tex
@@ -603,14 +603,7 @@ Package: relsize 2013/03/29 ver 4.1
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks38
-) (c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.aux (c:/Users\mon_g\Desktop\Tcc\introducao.aux) (c:/Users\mon_g\Desktop\Tcc\elementos.aux) (c:/Users\mon_g\Desktop\Tcc\conclusao.aux
-
-LaTeX Warning: Label `fig:exemplo' multiply defined.
-
-
-LaTeX Warning: Label `fig:exemplo' multiply defined.
-
-))
+) (c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.aux)
 \openout1 = `exemplo_monografia_UFLA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 178.
@@ -683,11 +676,10 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 178.
 LaTeX Info: Redefining \pageref on input line 178.
 LaTeX Info: Redefining \nameref on input line 178.
- (c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.out) (c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.out)
 \@outlinefile=\write4
 \openout4 = `exemplo_monografia_UFLA.out'.
 
-<logoufla.jpg, id=83, 457.71pt x 185.7339pt>
+<logoufla.jpg, id=3, 457.71pt x 185.7339pt>
 File: logoufla.jpg Graphic file (type jpg)
 <use logoufla.jpg>
 Package pdftex.def Info: logoufla.jpg  used on input line 180.
@@ -779,11 +771,14 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 
 ] [5
 
-] (c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.lff)
+]
+
+Package hyperref Warning: old lff file detected, not used; run LaTeX again.
+
 \tf@lff=\write5
 \openout5 = `exemplo_monografia_UFLA.lff'.
 
- [6
+[6
 
 ]
 
@@ -819,39 +814,208 @@ This may cause the page layout to be inconsistent, however.
 
  (c:/Users\mon_g\Desktop\Tcc\elementos.tex
 Cap\'{\i }tulo 2.
-<quadroKanbam.png, id=129, 1927.2pt x 1084.05pt>
-File: quadroKanbam.png Graphic file (type png)
-<use quadroKanbam.png>
-Package pdftex.def Info: quadroKanbam.png  used on input line 24.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 18.
+
+LaTeX Warning: Citation `sabbagh2014scrum' on page 8 undefined on input line 18.
+
+
+LaTeX Warning: Citation `sabbagh2014scrum' on page 8 undefined on input line 21.
+
+
+LaTeX Warning: Citation `boeg2010kanban' on page 8 undefined on input line 29.
+
+<quadroKanban.png, id=44, 1927.2pt x 1084.05pt>
+File: quadroKanban.png Graphic file (type png)
+<use quadroKanban.png>
+Package pdftex.def Info: quadroKanban.png  used on input line 34.
 (pdftex.def)             Requested size: 385.43318pt x 216.80615pt.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 30.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 40.
 
 [8
 
 
 
-] [9 <c:/Users/mon_g/Desktop/Tcc/quadroKanbam.png>] [10]
+]
 
-LaTeX Warning: Citation `Franca2001' on page 11 undefined on input line 104.
+LaTeX Warning: Citation `ferreira2018analise' on page 9 undefined on input line 56.
+
+[9 <c:/Users/mon_g/Desktop/Tcc/quadroKanban.png>]
+
+LaTeX Warning: Citation `ferreira2018analise' on page 10 undefined on input line 67.
+
+
+LaTeX Warning: Citation `ferreira2018analise' on page 10 undefined on input line 78.
+
+
+LaTeX Warning: Citation `petrella2013learning' on page 10 undefined on input line 94.
+
+
+LaTeX Warning: Citation `weissmann2014vire' on page 10 undefined on input line 105.
+
+[10]
+
+LaTeX Warning: Citation `thai2003net' on page 11 undefined on input line 117.
+
+
+LaTeX Warning: Citation `Franca2001' on page 11 undefined on input line 137.
 
 ) [11]
+\openout2 = `desenvolvimento.aux'.
+
+ (c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex
+Cap\'{\i }tulo 3.
+<SICAR.png, id=82, 1445.4pt x 813.0375pt>
+File: SICAR.png Graphic file (type png)
+<use SICAR.png>
+Package pdftex.def Info: SICAR.png  used on input line 23.
+(pdftex.def)             Requested size: 433.62335pt x 243.91313pt.
+c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:26: You can't use `macro parameter character #' in horizontal mode.
+l.26 {\small Fonte: http://car.semas.pa.gov.br/#
+                                                /} %Fonte da imagem
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 29.
+
+[12
+
+
+
+]
+<pra-off.png, id=88, 903.375pt x 507.8975pt>
+File: pra-off.png Graphic file (type png)
+<use pra-off.png>
+Package pdftex.def Info: pra-off.png  used on input line 35.
+(pdftex.def)             Requested size: 451.6864pt x 253.94814pt.
+
+c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:38: Missing $ inserted.
+<inserted text> 
+                $
+l.38 ...Fonte: http://www.cprh.pe.gov.br/Controle_
+                                                  Ambiental/Sistema%20Nacion...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
+c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:40: Missing $ inserted.
+<inserted text> 
+                $
+l.40 \end{figure}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:40: Missing } inserted.
+<inserted text> 
+                }
+l.40 \end{figure}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[13 <c:/Users/mon_g/Desktop/Tcc/SICAR.png> <c:/Users/mon_g/Desktop/Tcc/pra-off.png>]
+<consulta-publica.png, id=97, 1927.2pt x 1084.05pt>
+File: consulta-publica.png Graphic file (type png)
+<use consulta-publica.png>
+Package pdftex.def Info: consulta-publica.png  used on input line 49.
+(pdftex.def)             Requested size: 423.98532pt x 238.49173pt.
+
+c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:52: You can't use `macro parameter character #' in horizontal mode.
+l.52 ...emas.semas.pa.gov.br/pra/consultaPublica/#
+                                                  /} %Fonte da imagem
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+<relatorios-pra.png, id=98, 1927.2pt x 1084.05pt>
+File: relatorios-pra.png Graphic file (type png)
+<use relatorios-pra.png>
+Package pdftex.def Info: relatorios-pra.png  used on input line 68.
+(pdftex.def)             Requested size: 423.98532pt x 238.49173pt.
+c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:71: You can't use `macro parameter character #' in horizontal mode.
+l.71 .../sistemas.semas.pa.gov.br/pra/relatorios/#
+                                                  /dados-gerais-adequacao-am...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+[14 <c:/Users/mon_g/Desktop/Tcc/consulta-publica.png>]
+<SEIRH-CMS.png, id=105, 1927.2pt x 1084.05pt>
+File: SEIRH-CMS.png Graphic file (type png)
+<use SEIRH-CMS.png>
+Package pdftex.def Info: SEIRH-CMS.png  used on input line 91.
+(pdftex.def)             Requested size: 423.98532pt x 238.49173pt.
+ [15 <c:/Users/mon_g/Desktop/Tcc/relatorios-pra.png>]
+<SEIRH.png, id=112, 1927.2pt x 1084.05pt>
+File: SEIRH.png Graphic file (type png)
+<use SEIRH.png>
+Package pdftex.def Info: SEIRH.png  used on input line 104.
+(pdftex.def)             Requested size: 423.98532pt x 238.49173pt.
+ [16 <c:/Users/mon_g/Desktop/Tcc/SEIRH-CMS.png>]
+c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:124: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   /
+l.124 ...io/cria-design-react/#/pt-BR/nav-menu/}.}
+                                                  , que é uma biblioteca de...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:124: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   /
+l.124 ...io/cria-design-react/#/pt-BR/nav-menu/}.}
+                                                  , que é uma biblioteca de...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+[17 <c:/Users/mon_g/Desktop/Tcc/SEIRH.png>]
+<cria-design.png, id=129, 1445.4pt x 813.0375pt>
+File: cria-design.png Graphic file (type png)
+<use cria-design.png>
+Package pdftex.def Info: cria-design.png  used on input line 132.
+(pdftex.def)             Requested size: 433.62335pt x 243.91313pt.
+
+c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex:135: You can't use `macro parameter character #' in horizontal mode.
+l.135 ...giainovacao.github.io/cria-design-react/#
+                                                  /pt-BR/button} %Fonte da i...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+<sigerpa.png, id=130, 1927.2pt x 1084.05pt>
+File: sigerpa.png Graphic file (type png)
+<use sigerpa.png>
+Package pdftex.def Info: sigerpa.png  used on input line 144.
+(pdftex.def)             Requested size: 427.83759pt x 240.65865pt.
+[18 <c:/Users/mon_g/Desktop/Tcc/cria-design.png>]) [19 <c:/Users/mon_g/Desktop/Tcc/sigerpa.png>]
 \openout2 = `conclusao.aux'.
 
  (c:/Users\mon_g\Desktop\Tcc\conclusao.tex
-Cap\'{\i }tulo 3.
-<agradecimento.jpg, id=152, 1284.8pt x 722.7pt>
+Cap\'{\i }tulo 4.
+<agradecimento.jpg, id=142, 1284.8pt x 722.7pt>
 File: agradecimento.jpg Graphic file (type jpg)
 <use agradecimento.jpg>
 Package pdftex.def Info: agradecimento.jpg  used on input line 18.
 (pdftex.def)             Requested size: 385.44298pt x 216.81166pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
-<convensao.png, id=155, 448.67625pt x 333.49594pt>
+<convensao.png, id=145, 448.67625pt x 333.49594pt>
 File: convensao.png Graphic file (type png)
 <use convensao.png>
 Package pdftex.def Info: convensao.png  used on input line 29.
@@ -859,50 +1023,55 @@ Package pdftex.def Info: convensao.png  used on input line 29.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 34.
 
-[12
+[20
 
 
 
- <c:/Users/mon_g/Desktop/Tcc/agradecimento.jpg>]) [13 <c:/Users/mon_g/Desktop/Tcc/convensao.png>] (c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.bbl) 
+ <c:/Users/mon_g/Desktop/Tcc/agradecimento.jpg>]) [21 <c:/Users/mon_g/Desktop/Tcc/convensao.png>]
+No file exemplo_monografia_UFLA.bbl.
+
+Package lastpage Warning: Rerun to get the references right on input line 257.
+
+
 AED: lastpage setting LastPage
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 257.
-
-[14
-
-
-
-]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
- (c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.aux (c:/Users\mon_g\Desktop\Tcc\introducao.aux) (c:/Users\mon_g\Desktop\Tcc\elementos.aux) (c:/Users\mon_g\Desktop\Tcc\conclusao.aux))
+(c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.aux (c:/Users\mon_g\Desktop\Tcc\introducao.aux) (c:/Users\mon_g\Desktop\Tcc\elementos.aux) (c:/Users\mon_g\Desktop\Tcc\desenvolvimento.aux) (c:/Users\mon_g\Desktop\Tcc\conclusao.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
-Package rerunfilecheck Info: File `exemplo_monografia_UFLA.out' has not changed.
-(rerunfilecheck)             Checksum: 873ADDA67D687E1890C15472FEB8CE10;1282.
 
+
+Package rerunfilecheck Warning: File `exemplo_monografia_UFLA.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `exemplo_monografia_UFLA.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D3394CAB2B2785F924389BD73E5D4B3E;1277.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 257.
  ) 
 Here is how much of TeX's memory you used:
- 12520 strings out of 492450
- 187728 string characters out of 3120004
+ 12576 strings out of 492450
+ 188196 string characters out of 3120004
  478050 words of memory out of 3000000
- 16540 multiletter control sequences out of 15000+200000
- 53669 words of font info for 91 fonts, out of 3000000 for 9000
+ 16584 multiletter control sequences out of 15000+200000
+ 60200 words of font info for 99 fonts, out of 3000000 for 9000
  1150 hyphenation exceptions out of 8191
- 46i,12n,49p,470b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,12n,49p,581b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-{C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.pdf (16 pages, 1072223 bytes).
+{C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.pdf (23 pages, 6488766 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 187 PDF objects out of 1000 (max. 8388607)
+ 55 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
