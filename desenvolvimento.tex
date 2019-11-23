@@ -9,13 +9,41 @@ Durante o desenvolvimento, o backend é, geralmente, compilado no computador do 
 
 A infraestrutura de servidores\footnote{Computadores físicos ou virtuais que rodam e servem a aplicação} do LEMAF são servidores com diversas máquinas, todas rodando NGNIX para prover as aplicações.
 
-O frontend seguia o mesmo processo do backend, porém quando ia para alguma máquina externa, era criado alguma configuração para que o backend servisse o frontend, evitando assim problemas de CORS.
+O frontend seguia o mesmo processo do backend, porém quando era enviado para alguma máquina externa, era criado alguma configuração para que o backend servisse o frontend, evitando assim problemas de CORS\footnote{Cross-origin resource sharing, é uma regra criada para segurança dos usuarios pelos navegadores.}.
 
 Já o banco de dados\footnote{Estrutura de armazenamento de dados} era controlado por um DBA\footnote{Database Administrator, gerencia a estrutura do banco de dados, desde a escolha do gerenciado de banco de dados a estrutura interna do mesmo.}, que criava e gerenciava toda a estrutura de banco, sendo somente necessário aos desenvolvedores discutir melhores soluções e criar demandas para os mesmos realizarem e contemplarem suas necessidades.
+
+Para a maioria dos bancos era utilizada o SGBD\footnote{ Sistemas de Gestão de Base de Dados} Postgres, por conta de sua extensão POSTGIS que dava suporte a diversos tipos de dados relacionados a geometrias.
+
+Como o foco do LEMAF é meio ambiente, o uso de mapas era recorrente na empresa, sendo necessário então obter um conhecimento básico sobre termos ambientais como APP e AUR.
+
+\begin{quote}
+    Área de preservação permanente - "área protegida, coberta ou não por vegetação nativa, com a função ambiental de preservar os recursos hídricos, a paisagem, a estabilidade geológica e a biodiversidade, facilitar o fluxo gênico de fauna e flora, proteger o solo e assegurar o bem-estar das populações humanas"\cite{brasil2012}
+\end{quote}
+
+\begin{quote}
+    Áreas de Uso Restrito -  área localizada no interior de uma propriedade ou posse rural, delimitada nos termos do art. 12, com a função de assegurar o uso econômico de modo sustentável dos recursos naturais do imóvel rural, auxiliar a conservação e a reabilitação dos processos ecológicos e promover a conservação da biodiversidade, bem como o abrigo e a proteção de fauna silvestre e da flora nativa;
+\cite{brasil2012}
+
+\end{quote}
 
 Durante o período de estagiário participei de todos squads, trabalhando com diversos times\footnote{Grupo de funcionários, geralmente formado por desenvolvedores, analistas de qualidade e Product Owners}, projetos e tecnologias.
 
 Em minha primeira equipe (Squad 1 - Carreta Furacão), tive como tecnologias necessárias JAVA (backend) e Angular (Frontend) para evoluir os projetos do Cadastro Ambiental Rural, incluindo os projetos SICAR, Central do Responsável Técnico, Central do Proprietário, PRA-OFF.
+Foi onde também tive meu primeiro contato com o Banco de Dados, uma vez que ainda não havia feito a disciplina deste assunto e então não possuia domínio ou conhecimento necessário, porem minha equipe possuia desenvolvedores extremamente experientes e muito dispostos a ensinar.
+Também tive o obstaculo de nunca ter utilizado alguma IDE, vinha programando em editores de texto desde o começo da graduação, então ao ter a necessidade de programar com eficiência, adotei o uso da IDE Eclipse, que já era utilizada pela equipe para desenvolvimento backend.
+
+O backend era uma parte que consiguia entender, uma vez que já tinha experiencias com JAVA graças a disciplina de Programação Orientada a Objetos e desenvolvimento Mobile, onde tive que desenvolver nativo para Android utilizando JAVA.
+
+Para desenvolver e reproduzir o fluxo do sistema, foi nescessario aprendizado sobre tecnologias relacionadas a georeferenciamento e mapas, como ARCGIS, leaflet e GEOSERVER.
+
+ARCGIS era uma ferramenta para desenho e exibição de geometrias, sendo possivel reproduzir desde fazendas pequenas(menos de 4 modulos fiscais\footnote{II - Pequena Propriedade - o imóvel rural:
+
+a) de área compreendida entre 1 (um) e 4 (quatro) módulos fiscais;\cite{brasil1993}}) a áreas enormes, pois durante o cotidiano, teriamos que lidar com esses casos.
+
+O leaflet era a principal biblioteca utilizada para mapas dentro do LEMAF, uma vez que era grátis e eficiente, com ampla documentação e compatibilidade. A ferramenta era de extrema importancia para os projetos.
+
+E para que ficasse centralizado diversos recursos de mapa, como as geometrias de APP do estado do pará, hidrografia e outros, era utilizado o GEOSERVER, uma ferramenta que armazenava, gerenciava e provia geometrias.
 
 \begin{figure}[H]
 \centering
@@ -73,7 +101,6 @@ Para melhor aprendizado e controle sobre códigos ruins, todas modificações fe
 
 O projeto consulta pública tinha como objetivo ilustrar aos proprietários de imóveis rurais suas áreas desmatadas, se seus imóveis estavam ou não de acordo com as regularizações ambientais e informações gerais sobre a geometria e hidrografia do terreno.
 
-
 \begin{figure}[H]
 \centering
 \caption{Relatórios do PRA} %legenda
@@ -87,9 +114,20 @@ O projeto consulta pública tinha como objetivo ilustrar aos proprietários de i
 O projeto de relatórios foi o primeiro projeto que tive a honra de iniciar, com uma equipe formada de 4 pessoas (2 desenvolvedores, uma tester e uma PO).
 O projeto consistia em uma plataforma de relatórios sobre o Programa de Regularização Ambiental e Adequação Ambiental.
 
+Foi o primeiro momento que tive que realmente aprender e utilizar dos conhecimentos relacionados a Banco de dados, e como já havia feito a disciplina de Banco de Dados 1 e estava cursando Banco de Dados 2, foi de extrema importancia os aprendizados das mesmas,
+uma vez que me foi explicado melhor como funcionava os bancos e ate mesmo como funcionava os bancos relacionados a geometrias espaciais.
+
 O time teve autonomia de escolha da tecnologia, então pela ótima experiência com VueJs e o alto desempenho de tal, o escolhemos para o frontend.
 Porém, pelo baixo conhecimento sobre backend, a escolha da tecnologia foi feita pelo outro desenvolvedor da equipe, que escolheu Spring Boot.
 Como minha experiência se limitava apenas a evolução de software, houve diversos gargalos no desenvolvimento, como criação de ambientes, scripts para automatização de deploy entre outros.
+
+Em meio a este projeto, descobriram um problema gigantesco no primeiro sistema que tive contato, o PRA-OFF. Ele quem empacotava e compactava as geometrias para o arquivo .PRA, porém, quando existiam muitas geometrias, o arquivo PRA podia ter tamanhos acima de 1GB.
+O outro módulo, central do Responsável Técnico, que recebia os arquivos PRA, não aguentava processar o arquivo, travando no envio do mesmo.
+
+Foi então minha responsabilidade desenvolver uma solução prática para o mesmo. Ná época, estava cursando a matéria de Programação Paralela e Concorrente, dai tive a ideia de otimizar este processo atravez de threads e processos, porém só isso não resolvia o problema.
+Após liberar bastante poder de processamento para o servidor e criar diversas otimizações no processo de criação do PRA, foi possível diminuir o arquivo para aproximadamente 1/4 de seu tamanho original.
+
+Isso se tornou possível através de consultas a pessoas mais experientes com dados geográficos, que me sugeriram converter as geometrias de GEOMETRY para KML.
 
 Mas após 2 meses, por necessitarem de um desenvolvimento com maior domínio de frontend, fui transferido para uma equipe especial, pois a tal não possuía tribo determinada.
 O projeto era uma POC (Prova de conceito) direcionada a uma empresa do ramo de agronomia. Com prazos curtíssimos e complexidade alta, o projeto foi um dos mais difíceis que já trabalhei.
@@ -136,7 +174,9 @@ Desse fato ocorreu uma iniciativa minha e de outro desenvolvedor de iniciarmos a
 Surgiu então, o Cria Design System\footnote{Disponível em \url{https://criatecnologiainovacao.github.io/cria-design-react/}}, que é uma biblioteca de componentes UI para ReactJs.
 
 Todos os componentes eram criados pelo design do projeto, definindo comportamentos e animações, desenvolvido-os depois. Para a visualização individual dos componentes, utilizamos o StoryBook,
-que cria e organiza o catálogo de componentes e então, para compartilhar tal biblioteca para toda a empresa e não surgissem bugs, foram implementados testes automatizados para todos componentes e com necessidade mínima de cobertura de 80\%.
+que cria e organiza o catálogo de componentes e então, para compartilhar tal biblioteca para toda a empresa e não surgissem bugs, foram implementados testes automatizados, 
+uma vez que já havia tido contato com testes automatizados na disciplina de Engenharia de Software, e havia sido encorajado a desenvolver os mesmo em Desenvolvimento Web, resolvi que seria interessante a criação de testes de componentes, testando visualmente e comportamentalmente,
+todos componentes e com necessidade mínima de cobertura de 80\%.
 
 \begin{figure}[H]
 \centering
@@ -163,5 +203,9 @@ Após auxiliar com o início do projeto e facilitar o desenvolvimento do mesmo, 
 O projeto do SIGERH-PA (Sistema de Gerenciamento de Recursos Hídricos do Pará) é uma plataforma de cadastro e regularização de recursos hídricos (poços artesianos, nascentes e outros).
 Nele usávamos como backend o framework DotNet Framework 4.0 e como frontend AngularJs.
 
+O sistema tinha complexidade gigantesca, uma vez que para cada tipo de recurso hidrico, era necessário um fluxo especifico de cadastro.
+
+Uma das atividades mais importantes que fui responsável foi o desenvolvimento de um novo fluxo, totalmente diferente dos outros, então o reaproveitamento de código foi baixíssimo, somente pude reaproveitar alguns componentes.
+
 Ao final do meu estágio, tive como tarefas principais: aprimorar e corrigir tal sistema, que tinha
-vários problemas e uma alta complexidade, se tratando de um sistema bastante grande.
+vários problemas, se tratando de um sistema bastante grande.
