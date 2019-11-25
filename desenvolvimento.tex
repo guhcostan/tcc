@@ -1,19 +1,24 @@
-\chapter{METODOLOGIA}
+\chapter{Atividades desenvolvidas}
 \label{cap:desenvolvimento}
 
-Neste capítulo serão apresentados os projetos e tecnologias utilizadas durante o tempo de estágio experienciado.
+Nos primeiros dias como estagiário no LEMAF, fui submetido a uma rotina de treinamentos online para que entendesse como funcionava as principais tecnologias utilizadas lá.
+Me foi fornecido uma licença na plataforma Alura para que aprendesse a utilizar o framework VueJs e Spring e diversos livros sobre os processos scrum e banco de dados.
 
-Na sua grande maioria, os projetos do LEMAF são sistemas web\footnote{Sistema acessaveis pela internet}, constituídos de uma aplicação backend e uma frontend.
+Um tutor foi designado para criar um quadro de tarefas que deveriam ser cumpridas para que tivesse o conhecimento básico para desenvolver os projetos.
+Após terminar as tarefas, foi passado um projeto para que fosse possível praticar e verificar os conhecimentos obtidos.
+
+Na sua grande maioria, os projetos do LEMAF são sistemas web\footnote{Sistemas web são soluções de software que podem ser acessados através de um navegador  em uma rede de computadores interna de uma empresa ou pela Internet.
+}, constituídos de uma aplicação backend e uma frontend.
 
 Durante o desenvolvimento, o backend é, geralmente, compilado no computador do próprio desenvolvedor, porém quando há necessidade de serem feitos testes, é criado um servidor dentro da rede local para que possam ser efetuados os mesmos, sendo mais precisos por conta de estarem em um servidor.
 
-A infraestrutura de servidores\footnote{Computadores físicos ou virtuais que rodam e servem a aplicação} do LEMAF são servidores com diversas máquinas, todas rodando NGNIX para prover as aplicações.
+A infraestrutura de servidores\footnote{Computadores físicos ou virtuais que executam e servem a aplicação} do LEMAF são servidores com diversas máquinas, todas rodando NGNIX\footnote{Disponivel em: https://www.nginx.com/} para prover as aplicações.
 
-O frontend seguia o mesmo processo do backend, porém quando era enviado para alguma máquina externa, era criado alguma configuração para que o backend servisse o frontend, evitando assim problemas de CORS\footnote{Cross-origin resource sharing, é uma regra criada para segurança dos usuarios pelos navegadores.}.
+O frontend seguia o mesmo processo do backend, porém quando era enviado para alguma máquina externa, era criada alguma configuração para que o backend servisse o frontend, evitando assim problemas de CORS\footnote{CORS  (Cross-Origin Resource Sharing), é uma regra criada para segurança dos usuários ao  usar navegadores (\url{https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Controle_Acesso_CORS})}.
 
-Já o banco de dados\footnote{Estrutura de armazenamento de dados} era controlado por um DBA\footnote{Database Administrator, gerencia a estrutura do banco de dados, desde a escolha do gerenciado de banco de dados a estrutura interna do mesmo.}, que criava e gerenciava toda a estrutura de banco, sendo somente necessário aos desenvolvedores discutir melhores soluções e criar demandas para os mesmos realizarem e contemplarem suas necessidades.
+Já o banco de dados\footnote{Estrutura de armazenamento de dados} era controlado por um DBA\footnote{Database Administrator, gerencia a estrutura do banco de dados, desde a escolha do gerenciador de banco de dados até a estrutura interna do mesmo.}, que criava e gerenciava toda a estrutura de banco, sendo somente necessário aos desenvolvedores discutir melhores soluções e criar demandas para os mesmos realizarem e contemplarem suas necessidades.
 
-Para a maioria dos bancos era utilizada o SGBD\footnote{ Sistemas de Gestão de Base de Dados} Postgres, por conta de sua extensão POSTGIS que dava suporte a diversos tipos de dados relacionados a geometrias.
+Para a maioria dos bancos era utilizada o SGBD\footnote{ Sistemas de Gestão de Base de Dados} Postgres\footnote{Disponivel em: https://www.postgresql.org/}, por conta de sua extensão POSTGIS que dava suporte a diversos tipos de dados relacionados a geometrias.
 
 Como o foco do LEMAF é meio ambiente, o uso de mapas era recorrente na empresa, sendo necessário então obter um conhecimento básico sobre termos ambientais como APP e AUR.
 
@@ -28,22 +33,38 @@ Como o foco do LEMAF é meio ambiente, o uso de mapas era recorrente na empresa,
 \end{quote}
 
 Durante o período de estagiário participei de todos squads, trabalhando com diversos times\footnote{Grupo de funcionários, geralmente formado por desenvolvedores, analistas de qualidade e Product Owners}, projetos e tecnologias.
+E com isso, foi possivel obter experiencias com diversas tecnologias diferentes.
+\begin{figure}[H]
+\centering
+\caption{Fluxo de aprendizado} %legenda
+\includegraphics[scale=0.35]{fluxoAprendizado}\\  % o 0.9 indica 90% do tamanho original
+% pdfLaTeX aceita figuras no formato PNG, JPG ou PDF
+% figuras vetoriais podem ser exportadas para eps e depois convertidas para pdf usando epstopdf
+\label{fig:exemplo} %rotulo para refencia
+\end{figure}
+
+\section{SICAR}
 
 Em minha primeira equipe (Squad 1 - Carreta Furacão), tive como tecnologias necessárias JAVA (backend) e Angular (Frontend) para evoluir os projetos do Cadastro Ambiental Rural, incluindo os projetos SICAR, Central do Responsável Técnico, Central do Proprietário, PRA-OFF.
+
+Meu trabalho nesta equipe era desenvolver novas funcionalidades no sistema, como inserir novos dados no arquivo .PRA gerado pelo PRA-OFF, criptografa-lo e descriptografa-lo nas centrais.
+
 Foi onde também tive meu primeiro contato com o Banco de Dados, uma vez que ainda não havia feito a disciplina deste assunto e então não possuia domínio ou conhecimento necessário, porem minha equipe possuia desenvolvedores extremamente experientes e muito dispostos a ensinar.
+Tive diversas atividades onde era necessário a criação de comandos SQL e como todos passavam por validação do DBA, tinha recorrentemente que corrigir os mesmos, entendendo e aprendendo com meus erros.
+
 Também tive o obstaculo de nunca ter utilizado alguma IDE, vinha programando em editores de texto desde o começo da graduação, então ao ter a necessidade de programar com eficiência, adotei o uso da IDE Eclipse, que já era utilizada pela equipe para desenvolvimento backend.
 
-O backend era uma parte que consiguia entender, uma vez que já tinha experiencias com JAVA graças a disciplina de Programação Orientada a Objetos e desenvolvimento Mobile, onde tive que desenvolver nativo para Android utilizando JAVA.
+O backend era uma parte que conseguia entender, uma vez que já tinha experiencias com JAVA graças a disciplina de Programação Orientada a Objetos e desenvolvimento Mobile, onde tive que desenvolver nativo para Android utilizando JAVA.
 
-Para desenvolver e reproduzir o fluxo do sistema, foi nescessario aprendizado sobre tecnologias relacionadas a georeferenciamento e mapas, como ARCGIS, leaflet e GEOSERVER.
+Para desenvolver e reproduzir o fluxo do sistema, foi necessário aprendizado sobre tecnologias relacionadas a georeferenciamento e mapas, como ARCGIS\footnote{Disponivel em: \url{https://www.arcgis.com/index.html}}, leaflet\footnote{Disponivel em: \url{https://leafletjs.com/}} e GEOSERVER\footnote{Disponivel em: \url{http://geoserver.org/}}.
 
-ARCGIS era uma ferramenta para desenho e exibição de geometrias, sendo possivel reproduzir desde fazendas pequenas(menos de 4 modulos fiscais\footnote{II - Pequena Propriedade - o imóvel rural:
+ARCGIS era uma ferramenta para desenho e exibição de geometrias, sendo possível reproduzir desde fazendas pequenas(menos de 4 módulos fiscais\footnote{II - Pequena Propriedade - o imóvel rural:
 
-a) de área compreendida entre 1 (um) e 4 (quatro) módulos fiscais;\cite{brasil1993}}) a áreas enormes, pois durante o cotidiano, teriamos que lidar com esses casos.
+a) de área compreendida entre 1 (um) e 4 (quatro) módulos fiscais;\cite{brasil1993}}) a áreas enormes.
 
-O leaflet era a principal biblioteca utilizada para mapas dentro do LEMAF, uma vez que era grátis e eficiente, com ampla documentação e compatibilidade. A ferramenta era de extrema importancia para os projetos.
+A leaflet era a principal biblioteca utilizada para mapas dentro do LEMAF, uma vez que era grátis e eficiente, com ampla documentação e compatibilidade. A ferramenta era de extrema importância para os projetos.
 
-E para que ficasse centralizado diversos recursos de mapa, como as geometrias de APP do estado do pará, hidrografia e outros, era utilizado o GEOSERVER, uma ferramenta que armazenava, gerenciava e provia geometrias.
+E para que ficasse centralizado diversos recursos de mapa, como as geometrias de APP do estado do PArá, hidrografia e outros, era utilizado o GEOSERVER, uma ferramenta que armazenava, gerenciava e provia geometrias.
 
 \begin{figure}[H]
 \centering
@@ -52,10 +73,10 @@ E para que ficasse centralizado diversos recursos de mapa, como as geometrias de
 % pdfLaTeX aceita figuras no formato PNG, JPG ou PDF
 % figuras vetoriais podem ser exportadas para eps e depois convertidas para pdf usando epstopdf
 {\small Fonte: \url{http://car.semas.pa.gov.br/}} %Fonte da imagem
-\label{fig:exemplo} %rotulo para refencia
+\label{fig:sicar} %rotulo para refencia
 \end{figure}
 
-O projeto do SICAR\footnote{Sistema de Cadastro Ambiental Rural, uma plataforma relacionada ao governo e que gerenciava os cadastros.} tinha como objetivo informar e controlar os cadastros ambientais rurais feitos no estado do Pará, sendo necessárias algumas integrações com os módulos do SICAR federal e as Centrais ligadas ao PRA.
+O projeto do SICAR(Figura \ref{fig:sicar})\footnote{Sistema de Cadastro Ambiental Rural, uma plataforma relacionada ao governo e que gerenciava os cadastros.} tinha como objetivo informar e controlar os cadastros ambientais rurais feitos no estado do Pará, sendo necessárias algumas integrações com os módulos do SICAR federal e as Centrais ligadas ao PRA.
 
 \begin{quote}
     Para adequação dos imóveis rurais à nova legislação, foi criado o Cadastramento
@@ -64,6 +85,8 @@ obrigatório para todos os imóveis rurais, com a finalidade de integrar as info
 para controle, monitoramento, planejamento ambiental e econômico e combate
 ao desmatamento. - \cite{de2015cadastro}
 \end{quote}
+
+\section{PRA}
 \begin{figure}[H]
 \centering
 \caption{PRA-OFF} %legenda
@@ -71,12 +94,13 @@ ao desmatamento. - \cite{de2015cadastro}
 % pdfLaTeX aceita figuras no formato PNG, JPG ou PDF
 % figuras vetoriais podem ser exportadas para eps e depois convertidas para pdf usando epstopdf
 {\small Fonte: \url{http://www.cprh.pe.gov.br/Controle_Ambiental/Sistema%20Nacional%20de%20Cadastro%20Ambiental%20Rural%20-%20SICAR/PRA/43052%3B53356%3B480802%3B0%3B0.asp}} %Fonte da imagem
-\label{fig:exemplo} %rotulo para refencia
+\label{fig:pra} %rotulo para refencia
 \end{figure}
 
-Já o projeto do PRA\footnote{Programa de regularização ambiental, responsável por regularizar situações de desmatamentos e outras inflações ambientais}, não eram possíveis tais integrações, pois ele era um modulo offline, sendo possível a utilização sem internet. Para o desenvolvimento do mesmo, foi necessário estudar sobre electron, uma ferramenta que possibilita criar módulos web em aplicações offline.
+Já o projeto do PRA(Figura \ref{fig:pra})\footnote{Programa de regularização ambiental, responsável por regularizar situações de desmatamentos e outras inflações ambientais}, não eram possíveis tais integrações, pois ele era um módulo offline, sendo possível a utilização sem internet. Para o desenvolvimento do mesmo, foi necessário estudar sobre electron\footnote{Disponivel em: https://electronjs.org/}, uma ferramenta que possibilita criar módulos web em aplicações offline.
 
-Após 5 meses a equipe foi dividida em duas e então foi feita uma redistribuição de projetos, quando fui alocado a tribo\footnote{Grupo de funcionários divido por equipes, gerenciado por um GP} Runners. Os projetos principais que contribui durante esse período foram o Consulta Publica - PARÁ e relatórios do PRA.
+\section{Consulta Pública}
+Após 5 meses a equipe foi dividida em duas e então foi feita uma redistribuição de projetos, quando fui alocado a tribo\footnote{Grupo de funcionários divido por equipes, gerenciado por um GP} Runners. Os projetos principais que contribui durante esse período foram o Consulta Pública - PARÁ e relatórios do PRA.
 
 \begin{quote}
     O objetivo principal é promover as boas
@@ -90,16 +114,16 @@ Após 5 meses a equipe foi dividida em duas e então foi feita uma redistribuiç
 % pdfLaTeX aceita figuras no formato PNG, JPG ou PDF
 % figuras vetoriais podem ser exportadas para eps e depois convertidas para pdf usando epstopdf
 {\small Fonte: \url{http://sistemas.semas.pa.gov.br/pra/consultaPublica/#/}} %Fonte da imagem
-\label{fig:exemplo} %rotulo para refencia
+\label{fig:consultaPublica} %rotulo para refencia
 \end{figure}
 
-O projeto consulta pública foi o primeiro projeto que tive como objetivo a refatoração, pois se tratava de um projeto legado, utilizava uma das primeiras versões de VueJs no frontend e tinha o layout bem ruim.
+O projeto Consulta Pública(Figura \ref{fig:consultaPublica}) foi o primeiro projeto que tive como atividade a refatoração, pois se tratava de um projeto legado, utilizava uma das primeiras versões de VueJs no frontend e tinha o layout bem ruim.
 Foi a primeira obrigação que tive total responsabilidade, pois tinha que migrar todo o sistema para VueJs 2.0 e refatorar o frontend.
 
-Como era minha primeira experiência com o framework VueJs, foi demandado mais tempo do que o usual, mas tive suporte do meu time que me auxiliava sobre arquitetura, padrões de projetos e boas praticas de programação.
-Para melhor aprendizado e controle sobre códigos ruins, todas modificações feitas por mim eram submetidas ao Code Review enviadas para o projeto apenas perante aprovação. 
+Como era minha primeira experiência com o framework VueJs, foi demandado mais tempo do que o usual, mas tive suporte do meu time que me auxiliava sobre arquitetura, padrões de projetos e boas práticas de programação.
+Para melhor aprendizado e controle sobre códigos ruins, todas modificações feitas por mim eram submetidas ao Code Review\footnote{Revisão do código, consiste em algum ou alguns membros da equipe analisando seu código e fazendo comentários de melhorias} enviadas para o projeto apenas perante aprovação. 
 
-O projeto consulta pública tinha como objetivo ilustrar aos proprietários de imóveis rurais suas áreas desmatadas, se seus imóveis estavam ou não de acordo com as regularizações ambientais e informações gerais sobre a geometria e hidrografia do terreno.
+O projeto Consulta Pública tinha como objetivo ilustrar aos proprietários de imóveis rurais suas áreas desmatadas, se seus imóveis estavam ou não de acordo com as regularizações ambientais e informações gerais sobre a geometria e hidrografia do terreno.
 
 \begin{figure}[H]
 \centering
@@ -108,16 +132,17 @@ O projeto consulta pública tinha como objetivo ilustrar aos proprietários de i
 % pdfLaTeX aceita figuras no formato PNG, JPG ou PDF
 % figuras vetoriais podem ser exportadas para eps e depois convertidas para pdf usando epstopdf
 {\small Fonte: \url{http://sistemas.semas.pa.gov.br/pra/relatorios/#/dados-gerais-adequacao-ambiental}} %Fonte da imagem
-\label{fig:exemplo} %rotulo para refencia
+\label{fig:relatorios} %rotulo para refencia
 \end{figure}
 
-O projeto de relatórios foi o primeiro projeto que tive a honra de iniciar, com uma equipe formada de 4 pessoas (2 desenvolvedores, uma tester e uma PO).
+\section{Relatórios do PRA}
+O projeto de relatórios(Figura \ref{fig:relatorios}) foi o primeiro projeto que participei desde o começo, com uma equipe formada de 4 pessoas (2 desenvolvedores, uma tester e uma PO).
 O projeto consistia em uma plataforma de relatórios sobre o Programa de Regularização Ambiental e Adequação Ambiental.
 
 Foi o primeiro momento que tive que realmente aprender e utilizar dos conhecimentos relacionados a Banco de dados, e como já havia feito a disciplina de Banco de Dados 1 e estava cursando Banco de Dados 2, foi de extrema importancia os aprendizados das mesmas,
-uma vez que me foi explicado melhor como funcionava os bancos e ate mesmo como funcionava os bancos relacionados a geometrias espaciais.
+uma vez que me foi explicado melhor como funcionava os bancos e até mesmo como funcionava os bancos relacionados a geometrias espaciais.
 
-O time teve autonomia de escolha da tecnologia, então pela ótima experiência com VueJs e o alto desempenho de tal, o escolhemos para o frontend.
+O time teve autonomia de escolha da tecnologia, então pela ótima experiência com VueJs e o alto desempenho de tal, este foi o escolhido para o frontend.
 Porém, pelo baixo conhecimento sobre backend, a escolha da tecnologia foi feita pelo outro desenvolvedor da equipe, que escolheu Spring Boot.
 Como minha experiência se limitava apenas a evolução de software, houve diversos gargalos no desenvolvimento, como criação de ambientes, scripts para automatização de deploy entre outros.
 
@@ -135,6 +160,9 @@ O projeto foi construído utilizando componentização, com o backend feito com 
 
 Após esse projeto, fui alocado na tribo Atlântida, onde trabalhei juntamente com mais um desenvolvedor em no projeto SEIRH-CMS.
 
+\section{SEIRH-CMS}
+
+O projeto do SEIRH-CMS(Figura \ref{fig:seirhCms}) era um gerenciador de conteúdo da aplicação SEIRH\footnote{Sistema Estadual de Informações Sobre Recursos Hídricos do Pará, responsável sobre oferecer informações sobre os projetos e programas relacionados a recursos hídricos do pará}.
 \begin{figure}[H]
 \centering
 \caption{SEIRH-CMS} %legenda
@@ -142,11 +170,9 @@ Após esse projeto, fui alocado na tribo Atlântida, onde trabalhei juntamente c
 % pdfLaTeX aceita figuras no formato PNG, JPG ou PDF
 % figuras vetoriais podem ser exportadas para eps e depois convertidas para pdf usando epstopdf
 {\small Fonte: \url{http://monitoramento.semas.pa.gov.br/SEIRHCMS}} %Fonte da imagem
-\label{fig:exemplo} %rotulo para refencia
+\label{fig:seirhCms} %rotulo para refencia
 \end{figure}
-
-O projeto do SEIRH-CMS era um gerenciador de conteúdo da aplicação SEIRH\footnote{Sistema Estadual de Informações Sobre Recursos Hídricos do Pará, responsável sobre oferecer informações sobre os projetos e programas relacionados a recursos hídricos do pará}.
-A plataforma web do SEIRH já existia, porém não havia comunicação com um backend, então seu conteúdo não era gerenciável. Logo, havia a necessidade de refatoração total do sistema.
+A plataforma web do SEIRH(Figura \ref{fig:seirh}) já existia, porém não havia comunicação com um backend, então seu conteúdo não era gerenciável. Logo, havia a necessidade de refatoração total do sistema.
 
 \begin{figure}[H]
 \centering
@@ -155,7 +181,7 @@ A plataforma web do SEIRH já existia, porém não havia comunicação com um ba
 % pdfLaTeX aceita figuras no formato PNG, JPG ou PDF
 % figuras vetoriais podem ser exportadas para eps e depois convertidas para pdf usando epstopdf
 {\small Fonte: \url{http://monitoramento.semas.pa.gov.br/SEIRH}} %Fonte da imagem
-\label{fig:exemplo} %rotulo para refencia
+\label{fig:seirh} %rotulo para refencia
 \end{figure}
 
 Então, a refatoração do sistema foi atribuída como tarefa designada ao nosso time.
@@ -171,10 +197,12 @@ O projeto foi finalizado com excelência e no prazo estipulado, o que me rendeu 
 O projeto desta vez fazia parte de um grande complexo de plataformas que havia sido encomendado por uma empresa de agronomia e tinha muitos componentes de frontend similares entre sí.
 
 Desse fato ocorreu uma iniciativa minha e de outro desenvolvedor de iniciarmos a construção do Design System em um contexto organizacional.
-Surgiu então, o Cria Design System\footnote{Disponível em \url{https://criatecnologiainovacao.github.io/cria-design-react/}}, que é uma biblioteca de componentes UI para ReactJs.
 
-Todos os componentes eram criados pelo design do projeto, definindo comportamentos e animações, desenvolvido-os depois. Para a visualização individual dos componentes, utilizamos o StoryBook,
-que cria e organiza o catálogo de componentes e então, para compartilhar tal biblioteca para toda a empresa e não surgissem bugs, foram implementados testes automatizados, 
+\section{Cria Design System}
+Surgiu então, o Cria Design System(Figura \ref{fig:criaDesing})\footnote{Disponível em \url{https://criatecnologiainovacao.github.io/cria-design-react/}}, que é uma biblioteca de componentes UI\footnote{User Interface Design - é uma área de design que planeja e analisa os modos de iteração do usuario com o sistema.} para ReactJs.
+
+Todos os componentes eram criados pelo design do projeto, definindo comportamentos e animações, desenvolvidos depois. Para a visualização individual dos componentes, utilizamos o StoryBook\footnote{Disponivel em: \url{https://storybook.js.org/}},
+que cria e organiza o catálogo de componentes e então, para compartilhar tal biblioteca para toda a empresa e para que não surgissem bugs, foram implementados testes automatizados, 
 uma vez que já havia tido contato com testes automatizados na disciplina de Engenharia de Software, e havia sido encorajado a desenvolver os mesmo em Desenvolvimento Web, resolvi que seria interessante a criação de testes de componentes, testando visualmente e comportamentalmente,
 todos componentes e com necessidade mínima de cobertura de 80\%.
 
@@ -185,10 +213,15 @@ todos componentes e com necessidade mínima de cobertura de 80\%.
 % pdfLaTeX aceita figuras no formato PNG, JPG ou PDF
 % figuras vetoriais podem ser exportadas para eps e depois convertidas para pdf usando epstopdf
 {\small Fonte: \url{https://criatecnologiainovacao.github.io/cria-design-react/}} %Fonte da imagem
-\label{fig:exemplo} %rotulo para refencia
+\label{fig:criaDesign} %rotulo para refencia
 \end{figure}
 
 Após auxiliar com o início do projeto e facilitar o desenvolvimento do mesmo, fui incorporado a uma equipe da mesma tribo, que cuidava de alguns projetos como o SIOUT e SIGERH-PA.
+
+\section{SIGERH-PA}
+
+O projeto do SIGERH-PA(Figura \ref{fig:sigerhpa}) (Sistema de Gerenciamento de Recursos Hídricos do Pará) é uma plataforma de cadastro e regularização de recursos hídricos (poços artesianos, nascentes e outros).
+Nele usávamos como backend o framework DotNet Framework 4.0 e como frontend AngularJs.
 
 \begin{figure}[H]
 \centering
@@ -197,15 +230,11 @@ Após auxiliar com o início do projeto e facilitar o desenvolvimento do mesmo, 
 % pdfLaTeX aceita figuras no formato PNG, JPG ou PDF
 % figuras vetoriais podem ser exportadas para eps e depois convertidas para pdf usando epstopdf
 {\small Fonte: \url{http://sistemas.semas.pa.gov.br/sigerhpa/}} %Fonte da imagem
-\label{fig:exemplo} %rotulo para refencia
+\label{fig:sigerhpa} %rotulo para refencia
 \end{figure}
 
-O projeto do SIGERH-PA (Sistema de Gerenciamento de Recursos Hídricos do Pará) é uma plataforma de cadastro e regularização de recursos hídricos (poços artesianos, nascentes e outros).
-Nele usávamos como backend o framework DotNet Framework 4.0 e como frontend AngularJs.
-
-O sistema tinha complexidade gigantesca, uma vez que para cada tipo de recurso hidrico, era necessário um fluxo especifico de cadastro.
+O sistema tinha complexidade gigantesca, uma vez que para cada tipo de recurso hídrico, era necessário um fluxo especifico de cadastro.
 
 Uma das atividades mais importantes que fui responsável foi o desenvolvimento de um novo fluxo, totalmente diferente dos outros, então o reaproveitamento de código foi baixíssimo, somente pude reaproveitar alguns componentes.
-
 Ao final do meu estágio, tive como tarefas principais: aprimorar e corrigir tal sistema, que tinha
 vários problemas, se tratando de um sistema bastante grande.

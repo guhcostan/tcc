@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.19)  23 NOV 2019 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.19)  25 NOV 2019 20:26
 entering extended mode
 **c:/Users/mon_g/Desktop/Tcc/exemplo_monografia_UFLA.tex
 (c:/Users/mon_g/Desktop/Tcc/exemplo_monografia_UFLA.tex
@@ -603,34 +603,20 @@ Package: relsize 2013/03/29 ver 4.1
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks38
-) (c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.aux (c:/Users\mon_g\Desktop\Tcc\introducao.aux) (c:/Users\mon_g\Desktop\Tcc\elementos.aux) (c:/Users\mon_g\Desktop\Tcc\desenvolvimento.aux
+) (c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.aux (c:/Users\mon_g\Desktop\Tcc\introducao.aux) (c:/Users\mon_g\Desktop\Tcc\elementos.aux) (c:/Users\mon_g\Desktop\Tcc\tecnologias.aux
 
 LaTeX Warning: Label `fig:exemplo' multiply defined.
 
 
-LaTeX Warning: Label `fig:exemplo' multiply defined.
+LaTeX Warning: Label `fig:exemplocodigo1' multiply defined.
 
-
-LaTeX Warning: Label `fig:exemplo' multiply defined.
-
-
-LaTeX Warning: Label `fig:exemplo' multiply defined.
-
-
-LaTeX Warning: Label `fig:exemplo' multiply defined.
-
-
-LaTeX Warning: Label `fig:exemplo' multiply defined.
-
-
-LaTeX Warning: Label `fig:exemplo' multiply defined.
-
+) (c:/Users\mon_g\Desktop\Tcc\desenvolvimento.aux
 
 LaTeX Warning: Label `fig:exemplo' multiply defined.
 
 ) (c:/Users\mon_g\Desktop\Tcc\conclusao.aux
 
-LaTeX Warning: Label `fig:exemplo' multiply defined.
+LaTeX Warning: Label `cap:conclusao' multiply defined.
 
 
 LaTeX Warning: Label `fig:exemplo' multiply defined.
@@ -712,7 +698,7 @@ LaTeX Info: Redefining \nameref on input line 173.
 \@outlinefile=\write4
 \openout4 = `exemplo_monografia_UFLA.out'.
 
-<logoufla.jpg, id=91, 457.71pt x 185.7339pt>
+<logoufla.jpg, id=131, 457.71pt x 185.7339pt>
 File: logoufla.jpg Graphic file (type jpg)
 <use logoufla.jpg>
 Package pdftex.def Info: logoufla.jpg  used on input line 175.
@@ -774,12 +760,12 @@ l.175 \maketitle
                    \relax 
 l.177 ...re me apoiaram em toda essa tragetória.}
                                                        % Dedicatórias\\ [1]
-Underfull \hbox (badness 10000) in paragraph at lines 199--199
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--199
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
 
  []
 
@@ -787,7 +773,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--199
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 204.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 206.
  [3
 
 ] [4
@@ -804,9 +790,9 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 
  [6
 
-]
+] [7]
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 232.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 234.
 
 \openout2 = `introducao.aux'.
 
@@ -814,7 +800,7 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 Cap\'{\i }tulo 1.
 )
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 236.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 238.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -828,7 +814,7 @@ Make it at least 4.35004pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[7
+[8
 
 
 
@@ -839,104 +825,155 @@ This may cause the page layout to be inconsistent, however.
  (c:/Users\mon_g\Desktop\Tcc\elementos.tex
 Cap\'{\i }tulo 2.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 44.
+Package hyperref Warning: Suppressing empty link on input line 8.
 
-[8
+
+Overfull \hbox (1.7708pt too wide) in paragraph at lines 17--18
+[]\T1/ptm/m/n/12 Foi de-sen-vol-vida ba-se-ada nas me-to-do-lo-gias de em-pre-sas do ja-p�o, como Toyota e Honda.
+ []
+
+<Scrum.png, id=239, 2387.16844pt x 941.01563pt>
+File: Scrum.png Graphic file (type png)
+<use Scrum.png>
+Package pdftex.def Info: Scrum.png  used on input line 26.
+(pdftex.def)             Requested size: 477.42523pt x 188.19978pt.
+
+Overfull \hbox (22.18112pt too wide) in paragraph at lines 26--26
+ [][] 
+ []
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 32.
+
+[9
+
+
+
+] [10 <c:/Users/mon_g/Desktop/Tcc/Scrum.png>]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 85.
+
+
+LaTeX Warning: Citation `cruz2013scrum' on page 11 undefined on input line 85.
+
+[11]
+<quadroKanban.png, id=268, 1927.2pt x 1084.05pt>
+File: quadroKanban.png Graphic file (type png)
+<use quadroKanban.png>
+Package pdftex.def Info: quadroKanban.png  used on input line 125.
+(pdftex.def)             Requested size: 385.43318pt x 216.80615pt.
+ [12 <c:/Users/mon_g/Desktop/Tcc/quadroKanban.png>] [13] [14]) [15]
+\openout2 = `tecnologias.aux'.
+
+ (c:/Users\mon_g\Desktop\Tcc\tecnologias.tex
+Cap\'{\i }tulo 3.
+<githubFramework.png, id=306, 769.37437pt x 451.6875pt>
+File: githubFramework.png Graphic file (type png)
+<use githubFramework.png>
+Package pdftex.def Info: githubFramework.png  used on input line 15.
+(pdftex.def)             Requested size: 269.28506pt x 158.09299pt.
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 31.
+
+[16
+
+
+
+ <c:/Users/mon_g/Desktop/Tcc/githubFramework.png>]
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10.95> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 39.
+LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 51.
+ [17] [18]) [19]
+\openout2 = `desenvolvimento.aux'.
+
+ (c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex
+Cap\'{\i }tulo 4.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 25.
+
+[20
 
 
 
 ]
-<quadroKanban.png, id=189, 1927.2pt x 1084.05pt>
-File: quadroKanban.png Graphic file (type png)
-<use quadroKanban.png>
-Package pdftex.def Info: quadroKanban.png  used on input line 48.
-(pdftex.def)             Requested size: 385.43318pt x 216.80615pt.
- [9 <c:/Users/mon_g/Desktop/Tcc/quadroKanban.png>] [10] [11]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 171.
-
-
-LaTeX Warning: Citation `cruz2013scrum' on page 12 undefined on input line 171.
-
-) [12]
-\openout2 = `desenvolvimento.aux'.
-
- (c:/Users\mon_g\Desktop\Tcc\desenvolvimento.tex
-Cap\'{\i }tulo 3.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-
-Package hyperref Warning: Suppressing empty link on input line 21.
-
 
 Package hyperref Warning: Suppressing empty link on input line 26.
 
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 27.
+Package hyperref Warning: Suppressing empty link on input line 31.
 
-[13
+<fluxoAprendizado.png, id=358, 1245.65375pt x 439.6425pt>
+File: fluxoAprendizado.png Graphic file (type png)
+<use fluxoAprendizado.png>
+Package pdftex.def Info: fluxoAprendizado.png  used on input line 40.
+(pdftex.def)             Requested size: 435.98535pt x 153.87717pt.
+[21 <c:/Users/mon_g/Desktop/Tcc/fluxoAprendizado.png>]
 
+Package hyperref Warning: Suppressing empty link on input line 63.
 
-
-]
-
-Package hyperref Warning: Suppressing empty link on input line 42.
-
-<SICAR.png, id=252, 1445.4pt x 813.0375pt>
+<SICAR.png, id=374, 1445.4pt x 813.0375pt>
 File: SICAR.png Graphic file (type png)
 <use SICAR.png>
-Package pdftex.def Info: SICAR.png  used on input line 51.
+Package pdftex.def Info: SICAR.png  used on input line 72.
 (pdftex.def)             Requested size: 433.62335pt x 243.91313pt.
-[14]
-<pra-off.png, id=264, 903.375pt x 507.8975pt>
+[22]
+<pra-off.png, id=389, 903.375pt x 507.8975pt>
 File: pra-off.png Graphic file (type png)
 <use pra-off.png>
-Package pdftex.def Info: pra-off.png  used on input line 70.
+Package pdftex.def Info: pra-off.png  used on input line 93.
 (pdftex.def)             Requested size: 451.6864pt x 253.94814pt.
- [15 <c:/Users/mon_g/Desktop/Tcc/SICAR.png>]
-<consulta-publica.png, id=276, 1927.2pt x 1084.05pt>
+ [23 <c:/Users/mon_g/Desktop/Tcc/SICAR.png>]
+<consulta-publica.png, id=404, 1927.2pt x 1084.05pt>
 File: consulta-publica.png Graphic file (type png)
 <use consulta-publica.png>
-Package pdftex.def Info: consulta-publica.png  used on input line 89.
+Package pdftex.def Info: consulta-publica.png  used on input line 113.
 (pdftex.def)             Requested size: 423.98532pt x 238.49173pt.
- [16 <c:/Users/mon_g/Desktop/Tcc/pra-off.png>]
-<relatorios-pra.png, id=286, 1927.2pt x 1084.05pt>
+ [24 <c:/Users/mon_g/Desktop/Tcc/pra-off.png>]
+<relatorios-pra.png, id=417, 1927.2pt x 1084.05pt>
 File: relatorios-pra.png Graphic file (type png)
 <use relatorios-pra.png>
-Package pdftex.def Info: relatorios-pra.png  used on input line 107.
+Package pdftex.def Info: relatorios-pra.png  used on input line 131.
 (pdftex.def)             Requested size: 423.98532pt x 238.49173pt.
- [17 <c:/Users/mon_g/Desktop/Tcc/consulta-publica.png>] [18 <c:/Users/mon_g/Desktop/Tcc/relatorios-pra.png>]
-<SEIRH-CMS.png, id=299, 1927.2pt x 1084.05pt>
+ [25 <c:/Users/mon_g/Desktop/Tcc/consulta-publica.png>] [26 <c:/Users/mon_g/Desktop/Tcc/relatorios-pra.png>]
+<SEIRH-CMS.png, id=433, 1927.2pt x 1084.05pt>
 File: SEIRH-CMS.png Graphic file (type png)
 <use SEIRH-CMS.png>
-Package pdftex.def Info: SEIRH-CMS.png  used on input line 141.
+Package pdftex.def Info: SEIRH-CMS.png  used on input line 169.
 (pdftex.def)             Requested size: 423.98532pt x 238.49173pt.
-<SEIRH.png, id=302, 1927.2pt x 1084.05pt>
+ [27]
+<SEIRH.png, id=441, 1927.2pt x 1084.05pt>
 File: SEIRH.png Graphic file (type png)
 <use SEIRH.png>
-Package pdftex.def Info: SEIRH.png  used on input line 154.
+Package pdftex.def Info: SEIRH.png  used on input line 180.
 (pdftex.def)             Requested size: 423.98532pt x 238.49173pt.
- [19 <c:/Users/mon_g/Desktop/Tcc/SEIRH-CMS.png>] [20 <c:/Users/mon_g/Desktop/Tcc/SEIRH.png>]
-<cria-design.png, id=317, 1445.4pt x 813.0375pt>
+ [28 <c:/Users/mon_g/Desktop/Tcc/SEIRH-CMS.png> <c:/Users/mon_g/Desktop/Tcc/SEIRH.png>]
+
+LaTeX Warning: Reference `fig:criaDesing' on page 29 undefined on input line 202.
+
+<cria-design.png, id=454, 1445.4pt x 813.0375pt>
 File: cria-design.png Graphic file (type png)
 <use cria-design.png>
-Package pdftex.def Info: cria-design.png  used on input line 184.
+Package pdftex.def Info: cria-design.png  used on input line 212.
 (pdftex.def)             Requested size: 433.62335pt x 243.91313pt.
-<sigerpa.png, id=319, 1927.2pt x 1084.05pt>
+[29]
+<sigerpa.png, id=465, 1927.2pt x 1084.05pt>
 File: sigerpa.png Graphic file (type png)
 <use sigerpa.png>
-Package pdftex.def Info: sigerpa.png  used on input line 196.
+Package pdftex.def Info: sigerpa.png  used on input line 229.
 (pdftex.def)             Requested size: 427.83759pt x 240.65865pt.
- [21 <c:/Users/mon_g/Desktop/Tcc/cria-design.png>]) [22 <c:/Users/mon_g/Desktop/Tcc/sigerpa.png>]
+ [30 <c:/Users/mon_g/Desktop/Tcc/cria-design.png>]) [31 <c:/Users/mon_g/Desktop/Tcc/sigerpa.png>]
 \openout2 = `conclusao.aux'.
 
  (c:/Users\mon_g\Desktop\Tcc\conclusao.tex
-Cap\'{\i }tulo 4.
-<agradecimento.jpg, id=333, 1284.8pt x 722.7pt>
+Cap\'{\i }tulo 5.
+<agradecimento.jpg, id=478, 1284.8pt x 722.7pt>
 File: agradecimento.jpg Graphic file (type jpg)
 <use agradecimento.jpg>
 Package pdftex.def Info: agradecimento.jpg  used on input line 26.
@@ -944,33 +981,27 @@ Package pdftex.def Info: agradecimento.jpg  used on input line 26.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 30.
 
-[23
+[32
 
 
 
-]
-<convensao.png, id=343, 745.78625pt x 738.76pt>
-File: convensao.png Graphic file (type png)
-<use convensao.png>
-Package pdftex.def Info: convensao.png  used on input line 37.
-(pdftex.def)             Requested size: 372.89221pt x 369.37909pt.
- [24 <c:/Users/mon_g/Desktop/Tcc/agradecimento.jpg>]) [25 <c:/Users/mon_g/Desktop/Tcc/convensao.png>] (c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.bbl) 
+]) [33 <c:/Users/mon_g/Desktop/Tcc/agradecimento.jpg>] (c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.bbl) 
 AED: lastpage setting LastPage
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 252.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 255.
 
-[26
+[34
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 252.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
- (c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.aux (c:/Users\mon_g\Desktop\Tcc\introducao.aux) (c:/Users\mon_g\Desktop\Tcc\elementos.aux) (c:/Users\mon_g\Desktop\Tcc\desenvolvimento.aux) (c:/Users\mon_g\Desktop\Tcc\conclusao.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 252.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 252.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
+ (c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.aux (c:/Users\mon_g\Desktop\Tcc\introducao.aux) (c:/Users\mon_g\Desktop\Tcc\elementos.aux) (c:/Users\mon_g\Desktop\Tcc\tecnologias.aux) (c:/Users\mon_g\Desktop\Tcc\desenvolvimento.aux) (c:/Users\mon_g\Desktop\Tcc\conclusao.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 255.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 255.
 Package rerunfilecheck Info: File `exemplo_monografia_UFLA.out' has not changed.
-(rerunfilecheck)             Checksum: 1AC328651D914E092B3095A17BC55692;1414.
+(rerunfilecheck)             Checksum: 051028F79A67511EF0146EE723479DE1;2074.
 
 
 LaTeX Warning: There were undefined references.
@@ -978,16 +1009,34 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 252.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 255.
  ) 
 Here is how much of TeX's memory you used:
- 12690 strings out of 492450
- 190641 string characters out of 3120004
- 479050 words of memory out of 3000000
- 16653 multiletter control sequences out of 15000+200000
- 56472 words of font info for 93 fonts, out of 3000000 for 9000
+ 13121 strings out of 492450
+ 194917 string characters out of 3120004
+ 481050 words of memory out of 3000000
+ 17032 multiletter control sequences out of 15000+200000
+ 58441 words of font info for 99 fonts, out of 3000000 for 9000
  1150 hyphenation exceptions out of 8191
- 46i,12n,49p,581b,443s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,12n,49p,602b,1339s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.25} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.24} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.22} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.21} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exist, replaced by a fixed one
@@ -1020,10 +1069,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-{C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.pdf (28 pages, 6109826 bytes).
+{C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrro8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.pdf (36 pages, 6167657 bytes).
 PDF statistics:
- 395 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 500000)
- 237 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 549 PDF objects out of 1000 (max. 8388607)
+ 126 named destinations out of 1000 (max. 500000)
+ 327 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,22 +1,32 @@
 \BOOKMARK [0][-]{chapter.1}{INTRODU\307\303O}{}% 1
-\BOOKMARK [0][-]{chapter.2}{REFERENCIAL TE\323RICO}{}% 2
+\BOOKMARK [0][-]{chapter.2}{METODOLOGIAS E FERRAMENTAS}{}% 2
 \BOOKMARK [1][-]{section.2.1}{Metodologias \301geis}{chapter.2}% 3
 \BOOKMARK [2][-]{subsection.2.1.1}{Scrum}{section.2.1}% 4
-\BOOKMARK [2][-]{subsection.2.1.2}{Kanban}{section.2.1}% 5
-\BOOKMARK [1][-]{section.2.2}{Frameworks}{chapter.2}% 6
-\BOOKMARK [2][-]{subsection.2.2.1}{Frontend}{section.2.2}% 7
-\BOOKMARK [3][-]{subsubsection.2.2.1.1}{Angular}{subsection.2.2.1}% 8
-\BOOKMARK [3][-]{subsubsection.2.2.1.2}{VueJS}{subsection.2.2.1}% 9
-\BOOKMARK [3][-]{subsubsection.2.2.1.3}{ReactJS}{subsection.2.2.1}% 10
-\BOOKMARK [2][-]{subsection.2.2.2}{Backend}{section.2.2}% 11
-\BOOKMARK [3][-]{subsubsection.2.2.2.1}{PlayFramework}{subsection.2.2.2}% 12
-\BOOKMARK [3][-]{subsubsection.2.2.2.2}{Spring Boot}{subsection.2.2.2}% 13
-\BOOKMARK [3][-]{subsubsection.2.2.2.3}{DotNet Framework}{subsection.2.2.2}% 14
-\BOOKMARK [1][-]{section.2.3}{Cargos}{chapter.2}% 15
-\BOOKMARK [2][-]{subsection.2.3.1}{Scrum Master}{section.2.3}% 16
-\BOOKMARK [2][-]{subsection.2.3.2}{Analista de Qualidade\(Tester\)}{section.2.3}% 17
-\BOOKMARK [2][-]{subsection.2.3.3}{Gerente de projetos\(GP\)}{section.2.3}% 18
-\BOOKMARK [2][-]{subsection.2.3.4}{Product Owner\(PO\)}{section.2.3}% 19
-\BOOKMARK [0][-]{chapter.3}{METODOLOGIA}{}% 20
-\BOOKMARK [0][-]{chapter.4}{CONCLUS\303O}{}% 21
-\BOOKMARK [0][-]{section*.1}{ REFER\312NCIAS}{}% 22
+\BOOKMARK [3][-]{subsubsection.2.1.1.1}{Scrum Master}{subsection.2.1.1}% 5
+\BOOKMARK [3][-]{subsubsection.2.1.1.2}{Analista de Qualidade\(Tester\)}{subsection.2.1.1}% 6
+\BOOKMARK [3][-]{subsubsection.2.1.1.3}{Gerente de projetos\(GP\)}{subsection.2.1.1}% 7
+\BOOKMARK [3][-]{subsubsection.2.1.1.4}{Product Owner\(PO\)}{subsection.2.1.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.2}{Kanban}{section.2.1}% 9
+\BOOKMARK [1][-]{section.2.2}{Frameworks}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.1}{Frontend}{section.2.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.2.1.1}{Angular}{subsection.2.2.1}% 12
+\BOOKMARK [3][-]{subsubsection.2.2.1.2}{VueJS}{subsection.2.2.1}% 13
+\BOOKMARK [3][-]{subsubsection.2.2.1.3}{ReactJS}{subsection.2.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.2.2}{Backend}{section.2.2}% 15
+\BOOKMARK [3][-]{subsubsection.2.2.2.1}{PlayFramework}{subsection.2.2.2}% 16
+\BOOKMARK [3][-]{subsubsection.2.2.2.2}{Spring Boot}{subsection.2.2.2}% 17
+\BOOKMARK [3][-]{subsubsection.2.2.2.3}{DotNet Framework}{subsection.2.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.3}{Banco de Dados}{section.2.2}% 19
+\BOOKMARK [3][-]{subsubsection.2.2.3.1}{Postgresql}{subsection.2.2.3}% 20
+\BOOKMARK [0][-]{chapter.3}{TECNOLOGIAS}{}% 21
+\BOOKMARK [1][-]{section.3.1}{Frontend}{chapter.3}% 22
+\BOOKMARK [0][-]{chapter.4}{Atividades desenvolvidas}{}% 23
+\BOOKMARK [1][-]{section.4.1}{SICAR}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.2}{PRA}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.3}{Consulta P\372blica}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.4}{Relat\363rios do PRA}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.5}{SEIRH-CMS}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.6}{Cria Design System}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.7}{SIGERH-PA}{chapter.4}% 30
+\BOOKMARK [0][-]{chapter.5}{CONCLUS\303O}{}% 31
+\BOOKMARK [0][-]{section*.1}{ REFER\312NCIAS}{}% 32
