@@ -394,7 +394,7 @@
 \setcounter{tocdepth}{6}
 
 % entradas no sumário
-% esse é minha forma preferida e é aceito pela ABNT, entretanto, Biblioteca prefere
+% esse é sua forma preferida e é aceito pela ABNT, entretanto, Biblioteca prefere
 % o padrão com margem fixa - implementado no \AtBeginDocument
 %\def\l@chapter{\bfseries\@dottedtocline{0}{1.5em}{1.7em}}
 %\def\l@section{\@dottedtocline{1}{1.7em}{2.5em}}
