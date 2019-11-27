@@ -22,12 +22,6 @@
 {CRUZ, F. \textbf{Scrum e PMBOK unidos no Gerenciamento de Projetos}. [S.l.]:
   Brasport, 2013.}
 
-\bibitem[FDD. Feature Driven Development]{fdd}
-\abntrefinfo{FDD\ldots}{FDD\ldots}{}
-{FDD. Feature Driven Development. [s.n.]. Acesso: novembro/2019.
-  Dispon{\'\i}vel em: \url{http://www.featuredrivendevelopment.com/}. Acesso
-  em: novembro/2019.}
-
 \bibitem[Ferreira e Zuchi 2018]{ferreira2018analise}
 \abntrefinfo{Ferreira e Zuchi}{FERREIRA; ZUCHI}{2018}
 {FERREIRA, H.~K.; ZUCHI, J.~D. An{\'a}lise comparativa entre frameworks
@@ -70,6 +64,11 @@ Dispon{\'\i}vel em: \url{http://www.planalto.gov.br/ccivil\_03/leis/l8629.htm}.
 \abntrefinfo{Milani}{MILANI}{2008}
 {MILANI, A. \textbf{PostgreSQL-Guia do Programador}. [S.l.]: Novatec Editora,
   2008.}
+
+\bibitem[Palmer e Felsing 2001]{fdd}
+\abntrefinfo{Palmer e Felsing}{PALMER; FELSING}{2001}
+{PALMER, S.~R.; FELSING, M. \textbf{A practical guide to feature-driven
+  development}. [S.l.]: Pearson Education, 2001.}
 
 \bibitem[Petrella 2013]{petrella2013learning}
 \abntrefinfo{Petrella}{PETRELLA}{2013}

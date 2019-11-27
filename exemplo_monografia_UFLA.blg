@@ -7,7 +7,6 @@ A level-1 auxiliary file: conclusao.aux
 The style file: abntex2-alf.bst
 Database file #1: abntex2-options.bib
 Database file #2: refbib.bib
-Warning--campo year vazio ou faltando em fdd
 Warning--campo year vazio ou faltando em brasil2012
 Warning--campo year vazio ou faltando em brasil1993
 Warning--campo year vazio ou faltando em manifestoAgil
@@ -16,4 +15,4 @@ Warning--campo year vazio ou faltando em manifestoAgil
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-(There were 4 warnings)
+(There were 3 warnings)

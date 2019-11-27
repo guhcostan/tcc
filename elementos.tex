@@ -23,7 +23,7 @@ No contexto do estágio descrito, \textit{Scrum} e \textit{Kanban} foram utiliza
 
 Foi desenvolvida baseada nas metodologias de empresas do japão, como Toyota e Honda. É um \textit{framework} de trabalho que pode ser adaptado para diversas áreas.
 
-As tarefas a serem desenvolvidas ficam armazenadas no \textit{product backlog}\footnote{Lista priorizada contendo as tarefas com uma breve descrição.}, sendo retiradas as com maior prioridade para serem inseridas na \textit{Sprint}.
+As tarefas a serem desenvolvidas ficam armazenadas no \textit{product backlog}\footnote{Lista priorizada contendo as tarefas com uma breve descrição.}, sendo retiradas aquelas com maior prioridade para serem inseridas na \textit{Sprint}.
 
 Também existem alguns ritos que devem ser seguidos para o bom funcionamento do \textit{Scrum}, como as \textit{Daily Meetings, Planning, Review Meeting e Retrospective}, que ocorrem em um fluxo como ilustrado na Figura \ref{fig:scrum}.
 
@@ -37,7 +37,7 @@ Também existem alguns ritos que devem ser seguidos para o bom funcionamento do 
 \label{fig:scrum} %rotulo para refencia
 \end{figure}
 
-\textit{Daily Meetings} são reuniões diárias, rápidas e práticas para atualização da equipe sobre no que cada um está trabalhando, para um melhor entendimento da equipe.
+\textit{Daily Meetings} são reuniões diárias, rápidas e práticas para atualização da equipe sobre em que cada um está trabalhando, para um melhor entendimento da equipe.
 
 \textit{Review Meetings} são reuniões feitas após o fim de cada \textit{Sprint}, para entender os resultados da equipe durante a \textit{Sprint}.
 
@@ -106,7 +106,7 @@ Cargo que tem como função cuidar do relacionamento do time com o produto,
   financeiro (ROI) do produto.
   
   Prioriza os requisitos de
-  acordo com o meu valor de
+  acordo com o seu valor de
   mercado.
   
   Pode mudar os requisitos e
@@ -118,7 +118,7 @@ Cargo que tem como função cuidar do relacionamento do time com o produto,
 
 \subsection{\textit{Kanban}}
 \textit{Kanban} é uma opção de metodologia ágil mais adaptativa, tendo escopo aberto torna-se possível inserir atividades durante o tempo.
-Muitas vezes é comparado a uma tubulação de água, onde existe uma determinada quantidade de água a ser transportada, porém é necessário definir o tamanho do tubo ou vazão, sendo essa a quantidade, a quantidade de esforço que a equipe consegue trabalhar.
+Muitas vezes é comparado a uma tubulação de água, onde existe uma determinada quantidade de água a ser transportada, porém é necessário definir o tamanho do tubo ou vazão, sendo essa, a quantidade de esforço que a equipe consegue trabalhar.
 Assim como o \textit{Scrum}, possui um backlog controlado por um Product Owner. As atividades são inseridas assim que libera a vazão, como em uma tubulação.
 Diferentemente do \textit{Scrum}, não há necessidade de \textit{Reviews} e \textit{Retrospective} uma vez que não possui \textit{Sprints}, porém algumas reuniões para analisar o desempenho da equipe são um boa prática.
 Geralmente é determinado um máximo de esforço e, ao final de uma atividade, é inserida uma nova com prioridade.
@@ -140,12 +140,12 @@ Cada  tarefa é definida com um identificador, descrição da atividade, pessoa 
 
 Para facilitar o desenvolvimento, diversas ferramentas foram criadas e durante o desenvolvimento de novos projetos foi necessária a utilização das mesmas.
 
-As aplicações que utilizam esses \textit{frameworks} geralmente são separadas em \textit{frontend} e \textit{backend} devido à arquitetura cliente-servidor que é utilizada para o desenvolvimento das aplicações. O cliente é o agente responsável por enviar mensagens requisitando algum serviço ao serviço e é conhecido como front-end, pois é a parte que interage diretamente com o usuário. 
+As aplicações que utilizam esses \textit{frameworks} geralmente são separadas em \textit{frontend} e \textit{backend} devido à arquitetura cliente-servidor que é utilizada para o desenvolvimento das aplicações. O cliente é o agente responsável por enviar mensagens requisitando algum serviço ao servidor e é conhecido como front-end, pois é a parte que interage diretamente com o usuário. 
 
 O servidor é o agente responsável por realizar as operações necessárias para
 responder as requisições do lado cliente da aplicação, sendo também conhecido
 como \textit{backend}.
-Essa definição facilita o desenvolvimento modularizado da aplicação, uma vez que o \textit{backend} pode ser utilizado por diversos \textit{frontend}. Isto facilita a modularização das aplicações, uma vez que um \textit{backend} pode ser utilizado por diversos \textit{frontend}.
+Essa definição facilita o desenvolvimento modularizado da aplicação, uma vez que o \textit{backend} pode ser utilizado por diversos \textit{frontend}.
 
 \subsection{Frontend}
 
@@ -185,7 +185,7 @@ Teve sua primeira versão lançada em 2013.
 
 \subsection{Backend}
 
-É a parte da aplicação que é inacessível ao usuário, onde é controlado todo o sistema (autenticação, regras de negocio, jobs e etc).
+É a parte da aplicação que é inacessível ao usuário, onde é controlado todo o sistema (autenticação, regras de negócio, jobs e etc).
 
 \subsubsection{\textit{Play Framework}}
 
@@ -257,16 +257,15 @@ Sendo ReactJS e VueJS os principais em favoritos dentro da comunidade do GitHub\
 \end{figure}
 
 Com seu lançamento tardio em relação ao ReactJS, o VueJS vem crescendo e neste ano de 2019 ultrapassou o numero de estrelas no github, enquanto o \textit{framework} Angular
- cresce de forma lenta e continua.
+ cresce de forma lenta e contínua.
 
 Os \textit{frameworks} VueJS e ReactJS tinham como grande diferencial o uso da Virtual DOM\footnote{É um framework para manipulação do DOM} em vez da DOM(\textit{Document Object Model})\footnote{é a representação dos compomentes na página}. Uma vez que a DOM era uma abstração do codigo HTML, a DOM Virtual é uma abstração da DOM.
 
-Enquanto a DOM é uma árvore de objetos interligados, com diversas conexões e ramificações, onde modificações simples nas mesmas eram muito frequentes. Já a DOM virtual veio para 
-solucionar este problema, ela já possui configurações e implementações do \textit{browser}, livrando o desenvolvedor de ter que configurá-las manualmente. Além disto a DOM virtual é mais leve e simples, sendo mais fácil compreende-la e desenvolve-la.
+Enquanto a DOM é uma árvore de objetos interligados, com diversas conexões e ramificações, onde modificações simples nas mesmas muito frequentes, a DOM virtual já possui configurações e implementações do \textit{browser}, livrando o desenvolvedor de ter que configurá-las manualmente. Além disto a DOM virtual é mais leve e simples, sendo mais fácil compreendê-la e desenvolvê-la.
 
 Outro grande diferencial graças a esta mudança, é que a abstração de componentes se tornou mais inteligente, uma vez que era possível desenvolver componentes desacoplados e acoplados somente onde eram necessários.
 
-No início do estágio, diversos projetos que tive contato eram utilizado Angular, por conta de ter sido lançado em 2010 pela Google. Foi uma grande evolução, uma vez que projetos mais velhos foram desenvolvidos em Flex, que era uma tecnologia para interfaces em flash com integração com Java.
+Em diversos projetos que tive contato, era utilizado Angular, por conta de ter sido lançado em 2010 pela Google. Foi uma grande evolução, uma vez que projetos mais velhos foram desenvolvidos em Flex, que era uma tecnologia para interfaces em flash com integração com Java.
 
 O \textit{framework} Angular facilitava absurdamente o trabalho como desenvolvedor, uma vez que em diversos casos, que seriam necessárias diversas linhas de Jquery e Javascript, era somente necessário o uso de uso de uma, como exemplificam os códigos da Figura \ref{fig:exemplocodigo1} e a Figura \ref{fig:exemplocodigo2} que adicionam um evento a elementos DOM pelo JQuery e VirtualDOM pelo Angular.
 
@@ -295,9 +294,9 @@ $( "#botao" ).on( "click", function( event ) {
 
 Como a base de desenvolvedores no LEMAF já possuia muita experiência com Angular, foi difícil fazer com que adotassem outras tecnologias em outros projetos.
 
-Porém logo após iniciativa e insistência de um desenvolvedor, apresentamos o VueJS para a organização do LEMAF e conseguimos com que os projetos fossem desenvolvidos com ele.
+Porém logo após iniciativa e insistência de um desenvolvedor, apresentamos o VueJS para a organização do LEMAF e conseguimos que os projetos fossem desenvolvidos com ele.
 
-O VueJS não possuia documentação vasta como o do Angular, porém possuia atualizações recorrentes, porém com sua acensão, foi fácil demonstrar que em alguns anos a documentação dele seria melhor que a do Angular.
+O VueJS não possuia documentação vasta como o Angular, porém possuia atualizações recorrentes, porém com sua ascensão, foi fácil demonstrar que em alguns anos a documentação dele seria melhor que a do Angular.
 
 Porém era complicado mesmo assim, pois a credibilidade de um \textit{framework} da Google contra a de um ex-desenvolvedor da Google(Criador do VueJS) era incomparável, era realmente um risco a mudança. 
 Mas ao mostrar que o projeto recebia uma grande verba de patrocínio, a curva de crescimento e que o mesmo possuia uma equipe fixa de pelo menos 50 contribuidores, entenderam que o risco não era tão grande.
@@ -305,7 +304,7 @@ Mas ao mostrar que o projeto recebia uma grande verba de patrocínio, a curva de
 A adesão ao VueJS foi muito bem aceita em diversas equipes, pois a flexibilidade que ele proporciona ao desenvolvedor comparado ao Angular era gigantesca, com a possibilidade de configuração quase infinita, diversas bibliotecas e varios modos de arquitetura, o VueJS se tornou foco de estudo na empresa.
 Uma das iniciativas vindas dos organizadores da empresa foi fornecer alguns cursos da plataforma Alura para desenvolvimento web com VueJS.
 
-Sua performance mesmo com sendo maior que o ReactJS demonstrava mais fluidez, desde a ferramenta de \textit{hot-reload}\footnote{Recarregamento quente, possibilita que a DOM seja recarregada somente nos locais de modificação, sem ser necessário o recarregamento da tela total.}, até a compilação para modo produção.
+Seu tamanho mesmo com sendo maior que o ReactJS, demonstrava mais fluidez, desde a ferramenta de \textit{hot-reload}\footnote{Recarregamento quente, possibilita que a DOM seja recarregada somente nos locais de modificação, sem ser necessário o recarregamento da tela total.}, até a compilação para modo produção.
 Sua arquitetura era simples e direta, centralizada em poucos arquivos e ao mesmo tempo separava bem os comportamentos. Sua documentação era bem escrita, descrevendo os ciclos de vida dos componentes até suas diretivas.
 
 Muitos aprenderam por conta própria facilmente, uma vez que a complexidade abaixava, tendo toda a estrutura de um componente do Angular com 5 arquivos, em 1 arquivo .vue somente.
@@ -314,11 +313,11 @@ Como vários módulos do LEMAF já utilizavam de Pug/Jade em vez do HTML puro, a
 Outro grande benefício encontrado durante a transição foram as bibliotecas de UI\footnote{User Interface Design - é uma área de design que planeja e analisa os modos de iteração do usuario com o sistema.}, pois com Angular o mais adequado era o uso do Material Design que já era da própria empresa ou 
 Bootstrap\footnote{Framework para desenvolvimento de componentes e front-end para sites e aplicações web usando HTML, CSS e JavaScript.}, porém com o VueJS vieram varias outras bibliotecas como Vuetify e ElementUI, que tornaram as interfaces bem mais leves, modernas e bonitas, saindo daquele estilo antigo e estático.
 
-Também foi apresentado pela equipe de design, eu e outro desenvolvedor, a ideia de Design System para a organização, que era algo que seria fácil de ser aplicado graças ao VueJS, que tinha um otimo suporte a componentização e que se usado 
-de forma correta(Separando componentes de visualização e logica), poderia melhorar significantemente o tempo para desenvolvimento dos projetos.
+Também foi apresentado pela equipe de design, eu e outro desenvolvedor, a ideia de Design System para a organização, que era algo que seria fácil de ser aplicado graças ao VueJS, que tinha um ótimo suporte a componentização e que se usado 
+de forma correta(Separando componentes de visualização e lógica), poderia melhorar significantemente o tempo para desenvolvimento dos projetos.
 
 Em 2019, vendo o advento das tecnologias de desenvolvimento hibrido para mobile, foi questionado a equipe se seria interessante o uso de \textit{frameworks} mais próximos, para possíveis futuros projetos.
-Dai a adesão ao ReactJS, já que o principal utilizado para desenvolvimento mobile era o ReactJS-native, que se assemelhava bastante.
+Daí a adesão ao ReactJS, já que o principal utilizado para desenvolvimento mobile era o ReactJS-native, que se assemelhava bastante.
 
 Ao estudarmos sobre, entendemos que a curva de aprendizado para quem desenvolvia VueJS iria ser bem pequena, já que ambos eram bem flexíveis.
 

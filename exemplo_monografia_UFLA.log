@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.19)  26 NOV 2019 22:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.19)  27 NOV 2019 15:30
 entering extended mode
 **c:/Users/mon_g/Desktop/Tcc/exemplo_monografia_UFLA.tex
 (c:/Users/mon_g/Desktop/Tcc/exemplo_monografia_UFLA.tex
@@ -762,7 +762,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 196--196
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 201.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 202.
  [3
 
 ] [4
@@ -784,7 +784,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 
 ]
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 231.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 232.
 
 \openout2 = `introducao.aux'.
 
@@ -792,7 +792,7 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 Cap\'{\i }tulo 1.
 )
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 235.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 236.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -820,9 +820,6 @@ Cap\'{\i }tulo 2.
 Package hyperref Warning: Suppressing empty link on input line 7.
 
 
-Package hyperref Warning: Suppressing empty link on input line 12.
-
-
 Overfull \hbox (1.7708pt too wide) in paragraph at lines 24--25
 []\T1/ptm/m/n/12 Foi de-sen-vol-vida ba-se-ada nas me-to-do-lo-gias de em-pre-sas do ja-pão, como Toyota e Honda.
  []
@@ -833,7 +830,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
-<Scrum.png, id=243, 2387.16844pt x 941.01563pt>
+<Scrum.png, id=244, 2387.16844pt x 941.01563pt>
 File: Scrum.png Graphic file (type png)
 <use Scrum.png>
 Package pdftex.def Info: Scrum.png  used on input line 33.
@@ -859,9 +856,9 @@ Package pdftex.def Info: githubFramework.png  used on input line 254.
 (pdftex.def)             Requested size: 423.15721pt x 248.42888pt.
  [14] [15 <c:/Users/mon_g/Desktop/Tcc/githubFramework.png>]
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10.95> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 278.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 277.
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 290.
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 289.
  [16] [17]) [18]
 \openout2 = `tecnologias.aux'.
 
@@ -962,30 +959,30 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 ]) [32 <c:/Users/mon_g/Desktop/Tcc/agradecimento.jpg>] (c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.bbl) 
 AED: lastpage setting LastPage
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 252.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 253.
 
 [33
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 252.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
  (c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.aux (c:/Users\mon_g\Desktop\Tcc\introducao.aux) (c:/Users\mon_g\Desktop\Tcc\elementos.aux) (c:/Users\mon_g\Desktop\Tcc\tecnologias.aux) (c:/Users\mon_g\Desktop\Tcc\desenvolvimento.aux) (c:/Users\mon_g\Desktop\Tcc\conclusao.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 252.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 252.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 253.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 253.
 Package rerunfilecheck Info: File `exemplo_monografia_UFLA.out' has not changed.
 (rerunfilecheck)             Checksum: 0BE50506D145956368033BDC2555ED54;2033.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 252.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
  ) 
 Here is how much of TeX's memory you used:
  13158 strings out of 492450
  195555 string characters out of 3120004
- 482050 words of memory out of 3000000
+ 481050 words of memory out of 3000000
  17055 multiletter control sequences out of 15000+200000
  61254 words of font info for 101 fonts, out of 3000000 for 9000
  1150 hyphenation exceptions out of 8191
@@ -1057,9 +1054,9 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrro8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mon_g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.pdf (35 pages, 6193509 bytes).
+Output written on c:/Users\mon_g\Desktop\Tcc\exemplo_monografia_UFLA.pdf (35 pages, 6193180 bytes).
 PDF statistics:
- 587 PDF objects out of 1000 (max. 8388607)
+ 586 PDF objects out of 1000 (max. 8388607)
  138 named destinations out of 1000 (max. 500000)
  319 words of extra memory for PDF output out of 10000 (max. 10000000)
 
